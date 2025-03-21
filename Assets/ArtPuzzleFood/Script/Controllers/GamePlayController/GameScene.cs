@@ -14,7 +14,7 @@ public class GameScene : BaseScene
     public Text tvLevel;
     public Button settinBtn;
     public Transform canvas;
- 
+    public GameObject blockRaycast;
     public void Init(LevelData levelData)
     {
     
