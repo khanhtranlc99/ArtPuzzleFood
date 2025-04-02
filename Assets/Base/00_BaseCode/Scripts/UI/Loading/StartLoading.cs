@@ -35,6 +35,7 @@ public class StartLoading : MonoBehaviour
         {
             name = SceneName.HOME_SCENE;
         }
+        name = SceneName.HOME_SCENE;
         var _asyncOperation = SceneManager.LoadSceneAsync(name, LoadSceneMode.Single);
        
         while (!_asyncOperation.isDone)

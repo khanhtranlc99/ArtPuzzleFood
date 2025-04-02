@@ -13,14 +13,51 @@ public class GameScene : BaseScene
  
     public Text tvLevel;
     public Button settinBtn;
+    public Button skipBtn;
     public Transform canvas;
     public GameObject blockRaycast;
-    public void Init(LevelData levelData)
+    public Button btnHome;
+    public void Init( )
     {
-    
-     
-    }
 
+        tvLevel.text = "Level " + UseProfile.CurrentLevel;
+        btnHome.onClick.AddListener(HandleButtonOnClick);
+        skipBtn.onClick.AddListener(HandleButtonSkip);
+    }
+    public void HandleButtonOnClick()
+    {
+
+        Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
+    }
+    public void HandleButtonSkip()
+    {
+        GameController.Instance.admobAds.ShowInterstitial(false, actionIniterClose: () => { Next(); }, actionWatchLog: "InterWinBox");
+        void Next()
+        {
+            Winbox.Setup().Show();
+
+        }
+   
+       
+    }
+    IEnumerator ChangeScene()
+    {
+         
+
+
+        string name = "";
+
+        name = SceneName.HOME_SCENE;
+        var _asyncOperation = SceneManager.LoadSceneAsync(name, LoadSceneMode.Single);
+
+        while (!_asyncOperation.isDone)
+        {
+
+            yield return null;
+
+
+        }
+    }
     public override void OnEscapeWhenStackBoxEmpty()
     {
      

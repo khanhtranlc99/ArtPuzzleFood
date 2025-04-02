@@ -20,6 +20,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
     public Image thumnail;
     public RectTransform draggedItemRect;
     public bool isDone;
+    public Goals goals;
     public void OnPointerDown(PointerEventData eventData)
     {
         startPoint = eventData.position;
@@ -45,6 +46,8 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
             }
 
         }
+        Debug.LogError("isActive_" + isActive);
+        Debug.LogError("isCanDrag_" + this.controller.isCanDrag);
     }
     public void ReturnScroll()
     {
@@ -85,6 +88,9 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
             //       // GamePlayController.Instance.playerContain.levelData.lsDataGoalsPost[i].CheckCompletePiece();
             //    }
             //}
+            CheckComplete();
+
+
         }
 
         if (Input.GetMouseButtonUp(0))
@@ -97,5 +103,39 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
                 controller.scroll.enabled = true;
             }
         }
+    }
+    private void CheckComplete()
+    {
+        if (goals.transform.parent.gameObject.activeSelf )
+        {
+            float distance = Vector3.Distance(this.transform.position, goals.transform.position);
+            if (distance < 0.5f)
+            {
+             
+                controller.currentClickScroll = null;
+                goals.CheckComplete();
+                isDragging = false;
+                isCanDrag = false;
+                controller.scroll.enabled = true;
+           
+                GamePlayController.Instance.playerContain.levelData.HandleFillIndex(this);
+                GamePlayController.Instance.gameScene.blockRaycast.SetActive(false);
+                Debug.LogError("123");
+                StartCoroutine(ResetContentSize());
+                SimplePool2.Despawn(this.gameObject);
+
+
+
+            }
+        }
+    }    
+
+    private IEnumerator ResetContentSize()
+    {
+        controller.gridLayoutGroup.enabled = true;
+        controller.contentSizeFitter.enabled = true;
+        yield return new WaitForSeconds(0.1f);
+        controller.gridLayoutGroup.enabled = false;
+        controller.contentSizeFitter.enabled = false;
     }
 }

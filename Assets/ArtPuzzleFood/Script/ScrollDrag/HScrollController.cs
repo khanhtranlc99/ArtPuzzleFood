@@ -16,7 +16,7 @@ public class HScrollController : MonoBehaviour, IDragHandler, IBeginDragHandler,
 
     public Camera camera;
 
-    public HorizontalLayoutGroup gridLayoutGroup;
+    public GridLayoutGroup gridLayoutGroup;
     public ContentSizeFitter contentSizeFitter;
 
     //private bool isScroll;
