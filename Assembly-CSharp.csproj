@@ -83,6 +83,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHKeyGenerationParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT113R1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\IesWithCipherParameters.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedAeadBlockCipher.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\FilterStream.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\EnhancedScroller v2\Demos\06 Snapping\SnappingDemo.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\AnalyticsController.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1TaggedObjectParser.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraintData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\ConnectionAPISample.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Demo\Scripts\DemoShaderButton.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Old\InputFocus.cs" />
@@ -100,6 +102,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\GSocket.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\12 Nested Scrollers\ScrollRectEx.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\RandomReward.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509Crl.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\Authentication Providers\SampleCookieAuthentication.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\NewSessionTicket.cs" />
@@ -116,6 +119,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\ConnectionStatusSample.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UILineConnector.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ICertificateVerifyer.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\pkcs\RSASSAPSSparams.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Plugins\EnhancedScroller.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\08 View Driven Cell Sizes\CellView.cs" />
@@ -124,6 +128,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\ISO10126d2Padding.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\PrfAlgorithm.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ByteQueueStream.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationState.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\DistributionPoint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsClient.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\AppOpenAdManager.cs" />
@@ -145,6 +150,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsAgreementCredentials.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\CamelliaWrapEngine.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\MusicManager\PlaySoundOnClick.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\CRLDistPoint.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Old\StepperSide.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollPositionController.cs" />
@@ -161,6 +167,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R2Field.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\Scroller.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\WebSocketTransport.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\FixedPointPreCompInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERSequenceParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsKeyExchange.cs" />
@@ -174,6 +181,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPConnection.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventNames.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\AdSetting.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ParametersWithSBox.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Demo\Scripts\DemoPlayer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\WebSocketStatusCodes.cs" />
@@ -202,6 +210,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\TabNavigationHelper.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\JsonProtocol.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\06 Snapping\SlotController.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\Tweening\ITweenValue.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIImageCrop.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsKeyExchange.cs" />
@@ -211,6 +220,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\MacAlgorithm.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheMaintananceParams.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GamePlayController\GameScene.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\Streams.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Strings.cs" />
@@ -221,6 +231,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1Encodable.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDeflateCompression.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\ResizePanel.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Logger\ILogger.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\IesParameters.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\MessageResponse.cs" />
@@ -279,9 +290,11 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\SupplementalDataEntry.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\KeyUsage.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\pkcs\ContentInfo.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\HeartbeatManager.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\WinStreakBar.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\prng\IRandomGenerator.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Hubs\IHub.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571R1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\PushbackStream.cs" />
@@ -309,6 +322,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ECCurveType.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\GeneralSecurityException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\DHBasicKeyPairGenerator.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\Future.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\RsaPrivateCrtKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheFileInfo.cs" />
@@ -331,6 +345,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9ECPoint.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\SafeAreaTop.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_ScrollRectOcclusion.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\AvatarBar.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DesParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\macs\Poly1305.cs" />
@@ -350,7 +365,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\MD4Digest.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\GMessages.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\encodings\ISO9796d1Encoding.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\ZOutputStream.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\XTEAEngine.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\12 Nested Scrollers\DetailData.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\11 Pull Down Refresh\Controller.cs" />
@@ -365,7 +382,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CertificateStatusType.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\collections\CollectionUtilities.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\WinPopUp.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RFC3394WrapEngine.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSession.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\01 Simple Demo\Data.cs" />
     <Compile Include="Assets\Base\3Party\UnbiasedTime\UnbiasedTime.cs" />
@@ -381,14 +400,17 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\Websocket\WebSocketSample.cs" />
     <Compile Include="Assets\Demigiant\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\UI\UILocalizeToUpper.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\GameEvent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9ECParametersHolder.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\Messages\NegotiationResult.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\Base64.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemHeader.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Primitives\UICornerCut.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHPrivateKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\RipeMD128Digest.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP384R1Field.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256R1FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerUTCTime.cs" />
@@ -416,9 +438,12 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\ConfigGameBase.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsContext.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\Inflate.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIGraphic.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Interfaces.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyCell.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollSnapBase.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Decompression\GZipStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\FixedPointUtilities.cs" />
@@ -433,6 +458,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Old\RangeSlider.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1OctetStringParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\NoekeonEngine.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\RescalePanel.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DsaKeyGenerationParameters.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Old\CooldownButton.cs" />
@@ -442,6 +468,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R2Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ec\CustomNamedCurves.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerOutputStream.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\encodings\OaepEncoding.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Error.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9FieldElement.cs" />
@@ -457,6 +484,8 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIAdditiveEffect.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\LazyASN1InputStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\JZlib.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\GServices.cs" />
     <Compile Include="Assets\Demigiant\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RijndaelEngine.cs" />
@@ -465,11 +494,14 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AlertLevel.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\UI\PopupPrepageGame.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\TEAEngine.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\Demos\SafeAreaDemo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ElGamalKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERSetGenerator.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_MagneticInfiniteScroll.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\15 Expanding Cells\Controller.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPConnectionStates.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\AesEngine.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\Main Menu\ReturnToMainMenu.cs" />
@@ -482,6 +514,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\GOST3410KeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131R1Curve.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\switchToRectTransform.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\ECFieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509NameTokenizer.cs" />
@@ -492,6 +525,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\ContentScrollSnapHorizontal.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\EventDispatcher\EventDispatcher.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UIExtensionsInputManager.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP224R1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Forms\Implementations\HTTPMultiPartForm.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\14 Key Control\CellView.cs" />
@@ -499,11 +533,14 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\HeartbeatExtension.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\MusicManager\PlayOnAwake.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\cert\CertificateEncodingException.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409K1Point.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1Generator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409K1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsRsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\DsaKeyPairGenerator.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Skeleton.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERSetParser.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\08 View Driven Cell Sizes\Controller.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UIExtensionMethods.cs" />
@@ -524,10 +561,12 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\Cryptography\MD5CryptoServiceProvider.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\CipherKeyGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Authentication\DigestStore.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CSVOnlineReader.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\ComboBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RC6Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509Name.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsServerContextImpl.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\HomeScene\MenuTabButton.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ParametersWithSalt.cs" />
@@ -554,11 +593,13 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Service\GameServices.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\PackFreeInShop.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\UseProfile.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\GOFBBlockCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CipherSuite.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\GetSheet\GetTypeLevel.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\Extensions\IExtension.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\endo\ECEndomorphism.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GamePlayController\Grass.cs" />
     <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Reporter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheService.cs" />
@@ -577,6 +618,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\ParserToken.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\JsonException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256K1FieldElement.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardPopup2D.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\PopupReward\RewardElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\JsonMapper.cs" />
@@ -593,6 +635,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\IesEngine.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Interactive\InteractiveSquish.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ECKeyGenerationParameters.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ICipherParameters.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Primitives\UIPrimitiveBase.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\Iso9796d2Signer.cs" />
@@ -602,6 +645,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT233K1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Connection.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409R1Point.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\14 Key Control\Data.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerApplicationSpecific.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\Transports\WebsocketTransport.cs" />
@@ -620,6 +664,7 @@
     <Compile Include="Assets\EnhancedScroller v2\Demos\02 Multiple Cell Types\MultipleCellTypesDemo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\collections\EmptyEnumerable.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\AdjustPolygonCollider.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\SignerUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\BlowfishEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509Extensions.cs" />
@@ -659,6 +704,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\StreamOverflowException.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Interactive\WindManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\SkipjackEngine.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Triangulator.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\EventDispatcher\EventID.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\Sha1Digest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RSACoreEngine.cs" />
@@ -684,6 +730,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\NameType.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\DialogueRate.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\endo\GlvTypeBEndomorphism.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\BackHomeBox.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\SceneBase.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\DigitallySigned.cs" />
@@ -695,6 +742,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\DataLengthException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\GcmUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\endo\GlvTypeBParameters.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\BoneFollower.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERSequenceParser.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\AutoCompleteComboBox.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Primitives\UILineTextureRenderer.cs" />
@@ -703,12 +751,16 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\ReflectionHelpers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509CertificateParser.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorValues.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509ObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerGeneralizedTime.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHKeyParameters.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableList.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileEnums.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterialsAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163R2Curve.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerNull.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\Base64Encoder.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\09 Cell Events\Data.cs" />
@@ -736,6 +788,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\HomeScene\ShopTabButton.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Event\IMultiSceneSingleton.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Context.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsBlockCipher.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\HexColorField.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\OutputLengthException.cs" />
@@ -751,6 +804,7 @@
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\ScaleTransision.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\MemoableResetException.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\02 Multiple Cell Types\Data.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DefiniteLengthInputStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPResponse.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\ECGOST3410Signer.cs" />
@@ -777,6 +831,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorSampler.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\MessageData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\KdfParameters.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\BoneData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\field\IPolynomialExtensionField.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\agreement\ECDHBasicAgreement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\NetscapeRevocationURL.cs" />
@@ -786,6 +841,7 @@
     <Compile Include="Assets\EnhancedScroller v2\Demos\02 Multiple Cell Types\CellViewFooter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsNullCompression.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\SHA3Digest.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Statistics\Statistics.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERSetParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ExporterLabel.cs" />
@@ -793,6 +849,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheFileLock.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\07 Refreshing\CellView.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\SocketManager.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\ShopSceneController.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\ShopBox.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\Old\Segment.cs" />
@@ -823,6 +880,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\PollingTransport.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\DesEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\RSABlindingParameters.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1OctetString.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\01 Simple Demo\CellView.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509ExtensionBase.cs" />
@@ -840,6 +898,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\GameUtils.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\06 Snapping\PlayWin.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\ISO7816d4Padding.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IBlockResult.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Messages\ClientMessage.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\DropDownListButton.cs" />
@@ -862,6 +921,7 @@
     <Compile Include="Assets\EnhancedScroller v2\Demos\12 Nested Scrollers\Controller.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventDescriptor.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Decompression\Inflate.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerInteger.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RFC3211WrapEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\SerpentEngine.cs" />
@@ -870,7 +930,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283K1Point.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\12b Nested Linked Scrollers (Alternate Grid)\MasterData.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\MouseCustom.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerSequence.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\DropDownList.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\AdsController\AdmobAds.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat256.cs" />
@@ -886,6 +948,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R1Curve.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\BoltBase.cs" />
+    <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GamePlayController\BarPercent1.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R1FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IWrapper.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\3D Cards\CardExpanding3D.cs" />
@@ -902,6 +965,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\GObservable.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\teletrust\TeleTrusTObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ChangeCipherSpec.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\BlendMode.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\SafeArea.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\Tables1kGcmExponentiator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\VerisignCzagExtension.cs" />
@@ -910,11 +974,13 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\nist\NISTObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9ObjectIdentifiers.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PointAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Decompression\ZlibConstants.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\ExtentionMethods.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\SettingBox\SettingBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\macs\SipHash.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Packet.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\RescaleDragPanel.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\Check.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\agreement\DHBasicAgreement.cs" />
@@ -927,11 +993,14 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsProtocol.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT239FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\RandomDsaKCalculator.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DsaValidationParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\CcmBlockCipher.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\04 Jump To Demo\Controller.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283R1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsCredentials.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\cert\CertificateException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ECPointFormat.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\IAuthenticationProvider.cs" />
@@ -944,11 +1013,13 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerTester.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\DsaDigestSigner.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\LevelChestData.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\NetscapeCertType.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\DataContain.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\anssi\ANSSINamedCurves.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\CableCurve.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Event\MessageRouter.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Primitives\UISquircle.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\DefaultTlsCipherFactory.cs" />
@@ -967,6 +1038,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\Adler32.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571R1Point.cs" />
     <Compile Include="Assets\Demigiant\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP128R1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\field\FiniteFields.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsAuthentication.cs" />
@@ -976,6 +1048,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\ChaCha7539Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\oiw\ElGamalParameter.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\BoxController\BoxController.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\MqvPublicParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Cookies\Cookie.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\HC128Engine.cs" />
@@ -997,6 +1070,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\HandshakeData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Arrays.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\JsonEncoders\DefaultJsonEncoder.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\nist\NISTNamedCurves.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\Salsa20Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409FieldElement.cs" />
@@ -1020,6 +1094,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Enums.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Event\ApplicationStart.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\Triangulator.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Effects\ShineEffector.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\DistributionPointName.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\IGcmMultiplier.cs" />
@@ -1041,12 +1116,16 @@
     <Compile Include="Assets\EnhancedScroller v2\Plugins\Tween.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\GiftDatabase.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\14b Key Control Grid\RowCellView.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\EasingCore.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\11 Pull Down Refresh\CellView.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Yielders.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP192R1Point.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GameController.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsAeadCipher.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\EventData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\Messages\Invocation.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\ScaleInOut.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\BlockCipherPadding.cs" />
@@ -1083,6 +1162,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\djb\Curve25519Field.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIBezierCurve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\Collections\Specialized\NotifyCollectionChangedEventArgs.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\Json Encoders\JSonDotnetEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\Pkcs7Padding.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\StarChestData.cs" />
@@ -1092,6 +1172,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\UI\Loading\Winbox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\AbstractECMultiplier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSignerCredentials.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\SlotData.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\RewardPackBox\RewardPackElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERSequenceGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Interleave.cs" />
@@ -1100,6 +1181,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256R1Field.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Forms\HTTPFieldData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedBlockCipher.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Event.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\ECKeyPairGenerator.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListDebug.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_TweenScale.cs" />
@@ -1120,6 +1202,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283R1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerEnumerated.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\JsonEncoders\IJsonEncoder.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HomeController\HomeScene.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571K1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IXof.cs" />
@@ -1149,8 +1232,10 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsStreamCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP521R1Field.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\CongratulationBox\CongratulationBox.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\UI\BoosterPackBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Messages\IServerMessage.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\ScrollDrag\HScrollController.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrame.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP128R1FieldElement.cs" />
@@ -1178,6 +1263,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Authentication\IAuthenticationProvider.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\14b Key Control Grid\CellView.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GamePlayController\BarPercent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\OcspStatusRequest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerUTF8String.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\UserData\UserDataServices.cs" />
@@ -1191,6 +1277,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalRCore\Encoders\JsonDotNetEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ECBasisType.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\TwofishEngine.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\13 Pagination\Data.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\Directory.cs" />
@@ -1211,6 +1299,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IDSA.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\TileSizeFitter.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\ScrollDirection.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Transports\TransportBase.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\SVBoxSlider.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ElGamalPublicKeyParameters.cs" />
@@ -1230,6 +1320,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\RipeMD256Digest.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemReader.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT233K1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CombinedHash.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\JsonEncoders\DefaultJSonEncoder.cs" />
@@ -1252,6 +1343,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Primitives\UICircle.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT113R2Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedAsymmetricBlockCipher.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\02 Multiple Cell Types\CellViewRow.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\13 Pagination\LoadingCellView.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\KeyException.cs" />
@@ -1285,6 +1377,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\cryptopro\CryptoProObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\ECPoint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Logger\DefaultLogger.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\EffectMoney\MoneyEffect.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\IDsaKCalculator.cs" />
@@ -1314,6 +1407,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerPrintableString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CertChainType.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\WaitAnimation\WaitForAnimationToStart.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSessionImpl.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemWriter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\cert\CertificateExpiredException.cs" />
@@ -1335,6 +1429,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\SecurityUtilityException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\Collections\ObjectModel\ObservableDictionary.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Controls\SelectionBox\SelectionBox.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraintData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameTypes.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\MD5Digest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\util\FilterStream.cs" />
@@ -1370,23 +1465,32 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Shine.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Camouflage.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Directional Alpha Fade.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Utility\HiddenPass.shader" />
     <None Include="Assets\Base\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Alpha Tint.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteSpecular.cginc" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Hologram.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Full Glow Dissolve.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Directional Distortion Fade.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UIScreen.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Multiply.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Spine-Skeleton-Tint.shader" />
     <None Include="Assets\Base\3Party\NiceVibrations\OlderVersions\v2.0.1\NiceVibrations-v-2-0-1-readme.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Add Color.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Brightness.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UIMultiply.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
     <None Include="Assets\EnhancedScroller v2\Tutorials\readme.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Add Hue.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CameraNormalsTexture.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\BlendModes\Spine-Skeleton-PMA-Additive.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Custom Fade.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Ink Spread.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Saturation.shader" />
@@ -1401,15 +1505,19 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Strong Tint.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Hue.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\SoftMaskShader.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
     <None Include="Assets\Demigiant\readme.txt" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.txt" />
     <None Include="Assets\Base\3Party\CodeStage\AntiCheatToolkit\API.txt" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Premultiply Blend.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Full Distortion.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteLighting.cginc" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Spine-Skeleton-Fill.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle VertexLit Blended.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Generated\Standard\Flame.shader" />
@@ -1417,20 +1525,31 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Full Alpha Dissolve.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Interactive\Standard\Wind.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Utility\Hidden-Spine-Bones.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Basic\Standard\Additive.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle MultiplyDouble.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Basic\Standard\Multiplicative.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Burn.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
     <None Include="Assets\Base\3Party\Best HTTP (Pro)\link_android_subset.xml" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CameraDepthTexture.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle AddMultiply.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
     <None Include="Assets\Base\3Party\NiceVibrations\Common\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Blend.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
@@ -1446,15 +1565,21 @@
     <None Include="Assets\MaxSdk\Mediation\MediationAdapters.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Directional Glow Fade.shader" />
     <None Include="Assets\Base\3Party\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Spine-Special-Skeleton-Grayscale.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.review\Proguard\review.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Generated\Standard\Smoke.shader" />
     <None Include="Assets\Base\3Party\NiceVibrations\readme.txt" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\link.xml" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\BlendModes\Spine-Skeleton-PMA-Multiply.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Glitch.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteLighting.cginc" />
     <None Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\Demos\SafeAreaDemo.txt" />
     <None Include="Assets\Base\3Party\NiceVibrations\license.txt" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle AddSmooth.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
@@ -1468,26 +1593,35 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Color Replace.shader" />
     <None Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\License.txt" />
     <None Include="Assets\Base\3Party\Joker2X\FileHelpers.dll" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Source Alpha Dissolve.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Sine Glow.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Recolor.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Spine-SkeletonLit.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Metal.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Split Toning.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Base\3Party\Best HTTP (Pro)\link.xml" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Rainbow.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Spine-Skeleton.shader" />
     <None Include="Assets\EnhancedScroller v2\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\BlendModes\Spine-Skeleton-PMA-Screen.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Generated\Standard\Checkerboard.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Interactive\Standard\Squish.shader" />
     <None Include="Assets\Base\3Party\CodeStage\AntiCheatToolkit\Third-Party Notices.txt" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Spine-Skeleton-TintBlack.shader" />
     <None Include="Assets\Base\3Party\Best HTTP (Pro)\ReleaseNotes.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Shift Hue.shader" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+    <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UIParticleHidden.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Inner Outline.shader" />
@@ -2711,10 +2845,6 @@
       <Project>{55E8982A-767D-E21A-08BC-B62CDB11B311}</Project>
       <Name>MaxSdk.Scripts</Name>
     </ProjectReference>
-    <ProjectReference Include="spine-unity.csproj">
-      <Project>{287AE4D7-5EF7-0A01-979F-5884BC4C405B}</Project>
-      <Name>spine-unity</Name>
-    </ProjectReference>
     <ProjectReference Include="AppsFlyer.Editor.csproj">
       <Project>{7246BDF0-6990-B902-AB55-0A50CBEFD4F8}</Project>
       <Name>AppsFlyer.Editor</Name>
@@ -2754,10 +2884,6 @@
     <ProjectReference Include="ACTk.Examples.Genuine.Editor.csproj">
       <Project>{7B80039E-7185-E9C8-B4DF-40D9756AC8D0}</Project>
       <Name>ACTk.Examples.Genuine.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}</Project>
-      <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

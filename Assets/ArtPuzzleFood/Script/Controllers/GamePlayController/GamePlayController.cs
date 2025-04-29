@@ -37,7 +37,7 @@ public class GamePlayController : Singleton<GamePlayController>
 
    
         playerContain.Init();
-        gameScene.Init();
+        gameScene.Init(playerContain.levelData);
      
      
       

@@ -61,30 +61,59 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\com.unity.uiextensions\Editor\ReadOnlyDrawer.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\BoxSliderEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicIconEditor.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Interactive\Editor\WindParallaxEditor.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Interactive\Editor\InteractiveWindEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\CustomPostprocessScript.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\BezierLineRendererEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\CUIBezierCurveEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonRendererInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\ScrollPositionControllerEditor.cs" />
     <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineMaskUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\ConfigBuild.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineInspectorUtility.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Demo\Scripts\Editor\MaterialInstancerEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicRenameEditor.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Editor\LocalizeSettings.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Editor\SingleShaderGUI.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\CUIImageEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\RangeSliderEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Interactive\Editor\WindManagerEditor.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\AccordionElementEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\ColorPickerPresetsEditor.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Editor\UberShaderGUI.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Other\Editor\ShaderInstancerEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineAnimationStateDrawer.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\FancyScrollView\ScrollerEditor.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\UIExtensionsMenuOptions.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\NonDrawingGraphicEditor.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Editor\LocalizeParse.cs" />
@@ -95,6 +124,8 @@
     <Compile Include="Assets\com.unity.uiextensions\Editor\CUIGraphicEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\CanvasGroupActivator.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\uGUITools.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
+    <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Scripts\Editor\ShaderInformation.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +133,8 @@
     <None Include="Assets\MaxSdk\AppLovin\Editor\Dependencies.xml" />
     <None Include="Assets\MaxSdk\Mediation\Google\Editor\Dependencies.xml" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Editor\Dependencies.xml" />
+    <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
+    <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.review\Editor\Dependencies.xml" />
     <None Include="Assets\MaxSdk\Mediation\ByteDance\Editor\Dependencies.xml" />
     <None Include="Assets\Demigiant\Editor\DOTweenEditor.dll" />
@@ -1447,10 +1480,6 @@
       <Project>{55E8982A-767D-E21A-08BC-B62CDB11B311}</Project>
       <Name>MaxSdk.Scripts</Name>
     </ProjectReference>
-    <ProjectReference Include="spine-unity.csproj">
-      <Project>{287AE4D7-5EF7-0A01-979F-5884BC4C405B}</Project>
-      <Name>spine-unity</Name>
-    </ProjectReference>
     <ProjectReference Include="AppsFlyer.Editor.csproj">
       <Project>{7246BDF0-6990-B902-AB55-0A50CBEFD4F8}</Project>
       <Name>AppsFlyer.Editor</Name>
@@ -1490,10 +1519,6 @@
     <ProjectReference Include="ACTk.Examples.Genuine.Editor.csproj">
       <Project>{7B80039E-7185-E9C8-B4DF-40D9756AC8D0}</Project>
       <Name>ACTk.Examples.Genuine.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}</Project>
-      <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

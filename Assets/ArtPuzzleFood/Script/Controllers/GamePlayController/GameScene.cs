@@ -7,6 +7,7 @@ using DG.Tweening;
 using System;
 using MoreMountains.NiceVibrations;
 using UnityEngine.Events;
+using UniRx;
 
 public class GameScene : BaseScene
 {
@@ -17,12 +18,14 @@ public class GameScene : BaseScene
     public Transform canvas;
     public GameObject blockRaycast;
     public Button btnHome;
-    public void Init( )
+    public BarPercent barPercent;
+    public void Init( LevelData param )
     {
 
         tvLevel.text = "Level " + UseProfile.CurrentLevel;
         btnHome.onClick.AddListener(HandleButtonOnClick);
-        skipBtn.onClick.AddListener(HandleButtonSkip);
+
+        barPercent.Init(param);
     }
     public void HandleButtonOnClick()
     {

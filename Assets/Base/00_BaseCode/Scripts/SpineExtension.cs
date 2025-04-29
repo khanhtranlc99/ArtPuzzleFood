@@ -96,8 +96,8 @@ public static class SpineExtensions
         var animState = (IAnimationStateComponent)(anim);
         var skeletonData = skeleton.Data;
         var mixAndMatchSkin = new Skin(skinMix[0]);
-        foreach (var skinName in skinMix)
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinName));
+        //foreach (var skinName in skinMix)
+        //    mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinName));
         skeleton.SetSkin(mixAndMatchSkin);
         skeleton.SetSlotsToSetupPose();
         var spine = animState.AnimationState.SetAnimation(1, nameAnim, loop);
@@ -110,8 +110,8 @@ public static class SpineExtensions
         // var animState = (IAnimationStateComponent) (anim);
         var skeletonData = skeleton.Data;
         var mixAndMatchSkin = new Skin(skinMix[0]);
-        foreach (var skinName in skinMix)
-            mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinName));
+        //foreach (var skinName in skinMix)
+        //    mixAndMatchSkin.AddSkin(skeletonData.FindSkin(skinName));
         skeleton.SetSkin(mixAndMatchSkin);
         skeleton.SetSlotsToSetupPose();
     }

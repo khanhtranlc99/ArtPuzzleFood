@@ -1,8 +1,8 @@
 /******************************************************************************
  * Spine Runtimes License Agreement
- * Last updated January 1, 2020. Replaces all prior versions.
+ * Last updated May 1, 2019. Replaces all prior versions.
  *
- * Copyright (c) 2013-2020, Esoteric Software LLC
+ * Copyright (c) 2013-2019, Esoteric Software LLC
  *
  * Integration of the Spine Runtimes into software or otherwise creating
  * derivative works of the Spine Runtimes is permitted under the terms and
@@ -15,114 +15,75 @@
  * Spine Editor license and redistribution of the Products in any form must
  * include this license and copyright notice.
  *
- * THE SPINE RUNTIMES ARE PROVIDED BY ESOTERIC SOFTWARE LLC "AS IS" AND ANY
- * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
- * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL ESOTERIC SOFTWARE LLC BE LIABLE FOR ANY
- * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
- * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES,
- * BUSINESS INTERRUPTION, OR LOSS OF USE, DATA, OR PROFITS) HOWEVER CAUSED AND
- * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- * THE SPINE RUNTIMES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * THIS SOFTWARE IS PROVIDED BY ESOTERIC SOFTWARE LLC "AS IS" AND ANY EXPRESS
+ * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN
+ * NO EVENT SHALL ESOTERIC SOFTWARE LLC BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, BUSINESS
+ * INTERRUPTION, OR LOSS OF USE, DATA, OR PROFITS) HOWEVER CAUSED AND ON ANY
+ * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *****************************************************************************/
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using Spine.Collections;
 
 namespace Spine {
 	/// <summary>Stores attachments by slot index and attachment name.
-	/// <para>See SkeletonData <see cref="Spine.SkeletonData.DefaultSkin"/>, Skeleton <see cref="Spine.Skeleton.Skin"/>, and
+	/// <para>See SkeletonData <see cref="Spine.SkeletonData.DefaultSkin"/>, Skeleton <see cref="Spine.Skeleton.Skin"/>, and 
 	/// <a href="http://esotericsoftware.com/spine-runtime-skins">Runtime skins</a> in the Spine Runtimes Guide.</para>
 	/// </summary>
 	public class Skin {
 		internal string name;
-		private OrderedDictionary<SkinEntry, Attachment> attachments = new OrderedDictionary<SkinEntry, Attachment>(SkinEntryComparer.Instance);
-		internal readonly ExposedList<BoneData> bones = new ExposedList<BoneData>();
-		internal readonly ExposedList<ConstraintData> constraints = new ExposedList<ConstraintData>();
+		private Dictionary<AttachmentKeyTuple, Attachment> attachments =
+			new Dictionary<AttachmentKeyTuple, Attachment>(AttachmentKeyTupleComparer.Instance);
 
 		public string Name { get { return name; } }
-		public OrderedDictionary<SkinEntry, Attachment> Attachments { get { return attachments; } }
-		public ExposedList<BoneData> Bones { get { return bones; } }
-		public ExposedList<ConstraintData> Constraints { get { return constraints; } }
+		public Dictionary<AttachmentKeyTuple, Attachment> Attachments { get { return attachments; } }
 
 		public Skin (string name) {
 			if (name == null) throw new ArgumentNullException("name", "name cannot be null.");
 			this.name = name;
 		}
 
-		/// <summary>Adds an attachment to the skin for the specified slot index and name.
-		/// If the name already exists for the slot, the previous value is replaced.</summary>
-		public void SetAttachment (int slotIndex, string name, Attachment attachment) {
+		/// <summary>Adds an attachment to the skin for the specified slot index and name. If the name already exists for the slot, the previous value is replaced.</summary>
+		public void AddAttachment (int slotIndex, string name, Attachment attachment) {
 			if (attachment == null) throw new ArgumentNullException("attachment", "attachment cannot be null.");
-			if (slotIndex < 0) throw new ArgumentNullException("slotIndex", "slotIndex must be >= 0.");
-			attachments[new SkinEntry(slotIndex, name, attachment)] = attachment;
-		}
-
-		///<summary>Adds all attachments, bones, and constraints from the specified skin to this skin.</summary>
-		public void AddSkin (Skin skin) {
-			foreach (BoneData data in skin.bones)
-				if (!bones.Contains(data)) bones.Add(data);
-
-			foreach (ConstraintData data in skin.constraints)
-				if (!constraints.Contains(data)) constraints.Add(data);
-
-			foreach (SkinEntry entry in skin.attachments.Keys)
-				SetAttachment(entry.SlotIndex, entry.Name, entry.Attachment);
-		}
-
-		///<summary>Adds all attachments from the specified skin to this skin. Attachments are deep copied.</summary>
-		public void CopySkin (Skin skin) {
-			foreach (BoneData data in skin.bones)
-				if (!bones.Contains(data)) bones.Add(data);
-
-			foreach (ConstraintData data in skin.constraints)
-				if (!constraints.Contains(data)) constraints.Add(data);
-
-			foreach (SkinEntry entry in skin.attachments.Keys) {
-				if (entry.Attachment is MeshAttachment)
-					SetAttachment(entry.SlotIndex, entry.Name,
-						entry.Attachment != null ? ((MeshAttachment)entry.Attachment).NewLinkedMesh() : null);
-				else
-					SetAttachment(entry.SlotIndex, entry.Name, entry.Attachment != null ? entry.Attachment.Copy() : null);
-			}
+			attachments[new AttachmentKeyTuple(slotIndex, name)] = attachment;
 		}
 
 		/// <summary>Returns the attachment for the specified slot index and name, or null.</summary>
 		/// <returns>May be null.</returns>
 		public Attachment GetAttachment (int slotIndex, string name) {
-			var lookup = new SkinEntry(slotIndex, name, null);
-			Attachment attachment = null;
-			bool containsKey = attachments.TryGetValue(lookup, out attachment);
-			return containsKey ? attachment : null;
+			Attachment attachment;
+			attachments.TryGetValue(new AttachmentKeyTuple(slotIndex, name), out attachment);
+			return attachment;
 		}
 
 		/// <summary> Removes the attachment in the skin for the specified slot index and name, if any.</summary>
 		public void RemoveAttachment (int slotIndex, string name) {
 			if (slotIndex < 0) throw new ArgumentOutOfRangeException("slotIndex", "slotIndex must be >= 0");
-			var lookup = new SkinEntry(slotIndex, name, null);
-			attachments.Remove(lookup);
+			attachments.Remove(new AttachmentKeyTuple(slotIndex, name));
 		}
 
-		///<summary>Returns all attachments contained in this skin.</summary>
-		public ICollection<SkinEntry> GetAttachments () {
-			return this.attachments.Keys;
-		}
-
-		/// <summary>Returns all attachments in this skin for the specified slot index.</summary>
+		/// <summary>Finds the skin keys for a given slot. The results are added to the passed List(names).</summary>
 		/// <param name="slotIndex">The target slotIndex. To find the slot index, use <see cref="Spine.Skeleton.FindSlotIndex"/> or <see cref="Spine.SkeletonData.FindSlotIndex"/>
-		public void GetAttachments (int slotIndex, List<SkinEntry> attachments) {
-			foreach (SkinEntry entry in this.attachments.Keys)
-				if (entry.SlotIndex == slotIndex) attachments.Add(entry);
+		/// <param name="names">Found skin key names will be added to this list.</param>
+		public void FindNamesForSlot (int slotIndex, List<string> names) {
+			if (names == null) throw new ArgumentNullException("names", "names cannot be null.");
+			foreach (AttachmentKeyTuple key in attachments.Keys)
+				if (key.slotIndex == slotIndex) names.Add(key.name);
 		}
 
-		///<summary>Clears all attachments, bones, and constraints.</summary>
-		public void Clear () {
-			attachments.Clear();
-			bones.Clear();
-			constraints.Clear();
+		/// <summary>Finds the attachments for a given slot. The results are added to the passed List(Attachment).</summary>
+		/// <param name="slotIndex">The target slotIndex. To find the slot index, use <see cref="Spine.Skeleton.FindSlotIndex"/> or <see cref="Spine.SkeletonData.FindSlotIndex"/>
+		/// <param name="attachments">Found Attachments will be added to this list.</param>
+		public void FindAttachmentsForSlot (int slotIndex, List<Attachment> attachments) {
+			if (attachments == null) throw new ArgumentNullException("attachments", "attachments cannot be null.");
+			foreach (KeyValuePair<AttachmentKeyTuple, Attachment> entry in this.attachments)
+				if (entry.Key.slotIndex == slotIndex) attachments.Add(entry.Value);
 		}
 
 		override public string ToString () {
@@ -131,62 +92,38 @@ namespace Spine {
 
 		/// <summary>Attach all attachments from this skin if the corresponding attachment from the old skin is currently attached.</summary>
 		internal void AttachAll (Skeleton skeleton, Skin oldSkin) {
-			foreach (SkinEntry entry in oldSkin.attachments.Keys) {
-				int slotIndex = entry.SlotIndex;
+			foreach (KeyValuePair<AttachmentKeyTuple, Attachment> entry in oldSkin.attachments) {
+				int slotIndex = entry.Key.slotIndex;
 				Slot slot = skeleton.slots.Items[slotIndex];
-				if (slot.Attachment == entry.Attachment) {
-					Attachment attachment = GetAttachment(slotIndex, entry.Name);
+				if (slot.Attachment == entry.Value) {
+					Attachment attachment = GetAttachment(slotIndex, entry.Key.name);
 					if (attachment != null) slot.Attachment = attachment;
 				}
 			}
 		}
 
-		/// <summary>Stores an entry in the skin consisting of the slot index, name, and attachment.</summary>
-		public struct SkinEntry {
-			private readonly int slotIndex;
-			private readonly string name;
-			private readonly Attachment attachment;
-			internal readonly int hashCode;
+		public struct AttachmentKeyTuple {
+			public readonly int slotIndex;
+			public readonly string name;
+			internal readonly int nameHashCode;
 
-			public SkinEntry (int slotIndex, string name, Attachment attachment) {
+			public AttachmentKeyTuple (int slotIndex, string name) {
 				this.slotIndex = slotIndex;
 				this.name = name;
-				this.attachment = attachment;
-				this.hashCode = this.name.GetHashCode() + this.slotIndex * 37;
-			}
-
-			public int SlotIndex {
-				get {
-					return slotIndex;
-				}
-			}
-
-			/// <summary>The name the attachment is associated with, equivalent to the skin placeholder name in the Spine editor.</summary>
-			public String Name {
-				get {
-					return name;
-				}
-			}
-
-			public Attachment Attachment {
-				get {
-					return attachment;
-				}
+				nameHashCode = this.name.GetHashCode();
 			}
 		}
 
-		// Avoids boxing in the dictionary and is necessary to omit entry.attachment in the comparison.
-		class SkinEntryComparer : IEqualityComparer<SkinEntry> {
-			internal static readonly SkinEntryComparer Instance = new SkinEntryComparer();
+		// Avoids boxing in the dictionary.
+		class AttachmentKeyTupleComparer : IEqualityComparer<AttachmentKeyTuple> {
+			internal static readonly AttachmentKeyTupleComparer Instance = new AttachmentKeyTupleComparer();
 
-			bool IEqualityComparer<SkinEntry>.Equals (SkinEntry e1, SkinEntry e2) {
-				if (e1.SlotIndex != e2.SlotIndex) return false;
-				if (!string.Equals(e1.Name, e2.Name, StringComparison.Ordinal)) return false;
-				return true;
+			bool IEqualityComparer<AttachmentKeyTuple>.Equals (AttachmentKeyTuple o1, AttachmentKeyTuple o2) {
+				return o1.slotIndex == o2.slotIndex && o1.nameHashCode == o2.nameHashCode && string.Equals(o1.name, o2.name, StringComparison.Ordinal);
 			}
 
-			int IEqualityComparer<SkinEntry>.GetHashCode (SkinEntry e) {
-				return e.Name.GetHashCode() + e.SlotIndex * 37;
+			int IEqualityComparer<AttachmentKeyTuple>.GetHashCode (AttachmentKeyTuple o) {
+				return o.slotIndex;
 			}
 		}
 	}

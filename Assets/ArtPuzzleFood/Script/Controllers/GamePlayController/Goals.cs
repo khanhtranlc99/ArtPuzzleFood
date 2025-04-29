@@ -21,7 +21,7 @@ public class Goals : MonoBehaviour
 
     public void CheckComplete()
     {
-        //   thumnails.color = Color.white;
+        GamePlayController.Instance.gameScene.barPercent.HandleSubtract();
         thumnails.material = GamePlayController.Instance.playerContain._colorChange;
         ColorChange();
     }
