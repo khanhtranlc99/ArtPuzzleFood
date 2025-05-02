@@ -11,27 +11,35 @@ public class ButtonLevel : MonoBehaviour
     public int idLevel;
     public GameObject blind;
     public Button btnClick;
-
-    private void Start()
-    {
-        Init();
-    }
-    public void Init()
+    public Image bgThumb;
+    public Sprite spriteOff;
+    public Sprite spriteOn;
+    public Image thumbnails;
+    public Sprite thumbComplete;
+    public Sprite thumbNotReady;
+    public bool wasComplete;
+  
+    public void Init(bool param)
     {
         if(UseProfile.CurrentLevel >= idLevel)
         {
             blind.gameObject.SetActive(false);
+            bgThumb.sprite = spriteOn;
+         
         }
         else
         {
             blind.gameObject.SetActive(true);
+            bgThumb.sprite = spriteOff;
+             
         }
+         wasComplete = param;
         btnClick.onClick.AddListener(HandleButtonOnClick);
     }    
     public void HandleButtonOnClick()
     {
         UseProfile.LevelEggChest = idLevel;
-     Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
+        Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
     }
     IEnumerator ChangeScene()
     {
@@ -51,4 +59,5 @@ public class ButtonLevel : MonoBehaviour
 
         }
     }
+    
 }

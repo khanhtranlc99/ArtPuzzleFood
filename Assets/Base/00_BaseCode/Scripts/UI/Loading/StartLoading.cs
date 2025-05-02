@@ -49,32 +49,16 @@ public class StartLoading : MonoBehaviour
 
     private IEnumerator LoadAdsToChangeScene()
     {
-        yield return new WaitForSeconds(1);
-        //countSecond += 1;
-        //progressBar.fillAmount = 1 - (1 / (float)countSecond);
-        //if (GameController.Instance.admobAds.IsOpenAdsReady)
-        //{
-        //    wasCoolDown = false;
-        //}
-        //if (countSecond >= 5)
-        //{
-
-        //    wasCoolDown = false;
-
-        //}
-        //if (wasCoolDown == true)
-        //{
-        //    coroutineLoad = StartCoroutine(LoadAdsToChangeScene());
-        //}
-        //else
-        //{
-            //if (coroutineLoad != null)
-            //{
-                StartCoroutine(ChangeScene());
-        //        StopCoroutine(coroutineLoad);
-        //        coroutineLoad = null;
-        //    }
-        //}
+        yield return new WaitForSeconds(2f);
+        if (!UseProfile.FirstLoading)
+        {
+            name = SceneName.GAME_PLAY;
+        }
+        else
+        {
+            name = SceneName.HOME_SCENE;
+        }
+        Initiate.Fade(name, Color.black, 2f);
 
     }
 

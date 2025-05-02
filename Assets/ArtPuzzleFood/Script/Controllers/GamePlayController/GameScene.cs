@@ -11,20 +11,22 @@ using UniRx;
 
 public class GameScene : BaseScene
 {
- 
+    
     public Text tvLevel;
     public Button settinBtn;
-    public Button skipBtn;
+    public Button nextBtn;
     public Transform canvas;
     public GameObject blockRaycast;
     public Button btnHome;
     public BarPercent barPercent;
+    public CanvasGroup canvasGroupMain;
     public void Init( LevelData param )
     {
-
+        nextBtn.gameObject.transform.localScale = Vector3.zero;
+        nextBtn.gameObject.SetActive(false);
         tvLevel.text = "Level " + UseProfile.CurrentLevel;
         btnHome.onClick.AddListener(HandleButtonOnClick);
-
+        nextBtn.onClick.AddListener(HandleButtonNext);
         barPercent.Init(param);
     }
     public void HandleButtonOnClick()
@@ -32,16 +34,28 @@ public class GameScene : BaseScene
 
         Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
     }
-    public void HandleButtonSkip()
+    public void HandleButtonNext()
     {
+        GameController.Instance.musicManager.PlayClickSound();
         GameController.Instance.admobAds.ShowInterstitial(false, actionIniterClose: () => { Next(); }, actionWatchLog: "InterWinBox");
         void Next()
         {
-            Winbox.Setup().Show();
-
+            UseProfile.CurrentLevel += 1;
+            Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
         }
    
        
+    }
+    public IEnumerator WaitFadeCanvas( )
+    {
+
+        yield return canvasGroupMain.DOFade(0,0.85f).WaitForCompletion();
+         
+    }
+    public void HandleShowButton()
+    {
+        nextBtn.gameObject.SetActive(true);
+        nextBtn.gameObject.transform.DOScale(Vector3.one,0.5f);
     }
     IEnumerator ChangeScene()
     {

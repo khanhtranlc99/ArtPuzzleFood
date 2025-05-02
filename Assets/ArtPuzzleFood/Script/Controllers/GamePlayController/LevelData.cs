@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Sirenix.OdinInspector;
- 
+using Spine.Unity;
 
 public class LevelData : MonoBehaviour
 {
@@ -27,6 +27,7 @@ public class LevelData : MonoBehaviour
             return null;
         }
     }
+    public SkeletonGraphic anim;
 
    public void Init(PlayerContain paramContain)
     {
@@ -118,11 +119,24 @@ public class LevelData : MonoBehaviour
             }
             else
             {
-                Winbox.Setup().Show();
+               StartCoroutine(HandleWin()) ;
+                
+            //    Winbox.Setup().Show();
                 Debug.LogError("Win");
             }    
   
         }
+    }
+    private IEnumerator HandleWin()
+    {
+        yield return StartCoroutine(GamePlayController.Instance.gameScene.WaitFadeCanvas());
+        foreach(var item in lsGrass)
+        {
+            item.gameObject.SetActive(false);
+        }
+        anim.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1);
+        GamePlayController.Instance.gameScene.HandleShowButton();
     }
     [Button]
     private void FillIdGoats()

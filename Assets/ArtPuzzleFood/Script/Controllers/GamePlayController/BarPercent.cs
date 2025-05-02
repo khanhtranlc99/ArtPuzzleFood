@@ -23,12 +23,12 @@ public class BarPercent : MonoBehaviour
             }
         }
         currentNumb = sumPieces;
-        tvNumPieces.text = currentNumb + sumPieces.ToString();
+        tvNumPieces.text = currentNumb + "/"+ sumPieces.ToString();
     }    
     public void HandleSubtract()
     {
         currentNumb -= 1;
-        tvNumPieces.text = currentNumb + sumPieces.ToString();
+        tvNumPieces.text = currentNumb  + "/"+ sumPieces.ToString();
     }    
 
 }

@@ -11,8 +11,10 @@ using Unity.Advertisement.IosSupport;
 #endif
 
 
+
 public class GameController : MonoBehaviour
 {
+    
     public static GameController Instance;
 
     public MoneyEffectController moneyEffectController;
