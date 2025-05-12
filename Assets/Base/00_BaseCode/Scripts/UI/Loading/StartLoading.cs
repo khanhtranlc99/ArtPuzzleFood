@@ -27,7 +27,7 @@ public class StartLoading : MonoBehaviour
         yield return new WaitForSeconds(1);
         progressBar.fillAmount = 0f;
         string name = "";
-        if (!UseProfile.FirstLoading)
+        if (UseProfile.CurrentLevel == 1)
         {
             name = SceneName.GAME_PLAY;
         }
@@ -50,7 +50,7 @@ public class StartLoading : MonoBehaviour
     private IEnumerator LoadAdsToChangeScene()
     {
         yield return new WaitForSeconds(2f);
-        if (!UseProfile.FirstLoading)
+        if (UseProfile.CurrentLevel == 1)
         {
             name = SceneName.GAME_PLAY;
         }

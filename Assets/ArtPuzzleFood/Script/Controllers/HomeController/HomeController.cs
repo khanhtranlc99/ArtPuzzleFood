@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Newtonsoft.Json;
+using System.Linq;
 public class HomeController : Singleton<HomeController>
 {
     public HomeScene homeScene;
+    public List<ButtonLevel> lsBtnLevel;
 
     protected override void OnAwake()
     {
@@ -14,7 +16,19 @@ public class HomeController : Singleton<HomeController>
 
     private void Start()
     {
-      
+        var temp = JsonConvert.DeserializeObject<List<int>>(UseProfile.ListSave);
+        foreach(var item in lsBtnLevel)
+        {
+            if(temp.Contains(item.idLevel))
+            {
+                item.Init(true);
+            }    
+            else
+            {
+                item.Init(false);
+            }    
+          
+        }
     }
 
 }

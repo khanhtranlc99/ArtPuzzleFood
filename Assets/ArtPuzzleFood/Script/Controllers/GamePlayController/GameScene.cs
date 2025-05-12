@@ -8,6 +8,7 @@ using System;
 using MoreMountains.NiceVibrations;
 using UnityEngine.Events;
 using UniRx;
+using Newtonsoft.Json;
 
 public class GameScene : BaseScene
 {
@@ -40,6 +41,19 @@ public class GameScene : BaseScene
         GameController.Instance.admobAds.ShowInterstitial(false, actionIniterClose: () => { Next(); }, actionWatchLog: "InterWinBox");
         void Next()
         {
+            
+            var temp = JsonConvert.DeserializeObject<List<int>>(UseProfile.ListSave);
+            Debug.LogError(temp);
+            if(temp == null)
+            {
+                var Newdata = new List<int>() { 1} ;
+                UseProfile.ListSave = JsonConvert.SerializeObject(Newdata);
+            }    
+            else
+            {
+                temp.Add(UseProfile.CurrentLevel);
+                UseProfile.ListSave = JsonConvert.SerializeObject(temp);
+            }
             UseProfile.CurrentLevel += 1;
             Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
         }

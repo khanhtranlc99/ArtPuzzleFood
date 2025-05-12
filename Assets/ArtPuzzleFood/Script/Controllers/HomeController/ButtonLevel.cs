@@ -14,26 +14,37 @@ public class ButtonLevel : MonoBehaviour
     public Image bgThumb;
     public Sprite spriteOff;
     public Sprite spriteOn;
-    public Image thumbnails;
-    public Sprite thumbComplete;
-    public Sprite thumbNotReady;
+     
+    public GameObject thumbComplete;
+    public GameObject thumbNotReady;
     public bool wasComplete;
   
     public void Init(bool param)
-    {
+    {   wasComplete = param; 
         if(UseProfile.CurrentLevel >= idLevel)
         {
             blind.gameObject.SetActive(false);
             bgThumb.sprite = spriteOn;
-         
+          
         }
         else
         {
             blind.gameObject.SetActive(true);
             bgThumb.sprite = spriteOff;
-             
+          
         }
-         wasComplete = param;
+
+        if(wasComplete)
+        {
+            thumbComplete.SetActive(true);
+            thumbNotReady.SetActive(false);
+        }   
+        else
+        {
+            thumbNotReady.SetActive(true);
+            thumbComplete.SetActive(false);
+        }    
+       
         btnClick.onClick.AddListener(HandleButtonOnClick);
     }    
     public void HandleButtonOnClick()

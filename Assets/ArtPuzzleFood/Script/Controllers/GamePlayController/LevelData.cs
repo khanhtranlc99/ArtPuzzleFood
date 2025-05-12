@@ -49,7 +49,11 @@ public class LevelData : MonoBehaviour
          
             }
         }
-        pieces.Shuffle(); //duyet lai index
+        if(UseProfile.CurrentLevel != 1)
+        {
+            pieces.Shuffle(); //duyet lai index
+        }
+       
         for(int i = 0; i < pieces.Count; i++)
         {
             pieces[i].transform.SetParent(playerContain.postScroll, false);

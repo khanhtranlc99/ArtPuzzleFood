@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTk.Editor", "ACTk.Editor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{B7094E0C-B5D4-FFD9-1BA6-1231841FB297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{287AE4D7-5EF7-0A01-979F-5884BC4C405B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSdk.Scripts", "MaxSdk.Scripts.csproj", "{55E8982A-767D-E21A-08BC-B62CDB11B311}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACTk.Examples.Genuine.Runtime", "ACTk.Examples.Genuine.Runtime.csproj", "{0547D295-C2EC-C04C-45E3-40B8D3856DAD}"
@@ -87,6 +91,14 @@ Global
 		{B7094E0C-B5D4-FFD9-1BA6-1231841FB297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7094E0C-B5D4-FFD9-1BA6-1231841FB297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7094E0C-B5D4-FFD9-1BA6-1231841FB297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287AE4D7-5EF7-0A01-979F-5884BC4C405B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287AE4D7-5EF7-0A01-979F-5884BC4C405B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287AE4D7-5EF7-0A01-979F-5884BC4C405B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287AE4D7-5EF7-0A01-979F-5884BC4C405B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E634BB7-992B-F83D-1C9D-2EC293AB34FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{55E8982A-767D-E21A-08BC-B62CDB11B311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55E8982A-767D-E21A-08BC-B62CDB11B311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E8982A-767D-E21A-08BC-B62CDB11B311}.Release|Any CPU.ActiveCfg = Release|Any CPU

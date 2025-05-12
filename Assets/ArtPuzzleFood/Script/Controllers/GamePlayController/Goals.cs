@@ -24,7 +24,40 @@ public class Goals : MonoBehaviour
         GamePlayController.Instance.gameScene.barPercent.HandleSubtract();
         thumnails.material = GamePlayController.Instance.playerContain._colorChange;
         ColorChange();
+        StartCoroutine(CheckViewIndex());
     }
+    private IEnumerator CheckViewIndex()
+    {
+        GamePlayController.Instance.playerContain.hScrollController.currentClickScroll = null;
+        yield return new WaitForSeconds(0.4f);
+        GamePlayController.Instance.playerContain.hScrollController.currentClickScroll = null;
+        var gamePlayControl = GamePlayController.Instance;
+        List<Pieces> remainPieces = new List<Pieces>();
+        for (int i = 0; i < gamePlayControl.playerContain.levelData.pieces.Count; i++)
+        {
+            if (!gamePlayControl.playerContain.levelData.pieces[i].isDone)
+            {
+                remainPieces.Add(gamePlayControl.playerContain.levelData.pieces[i]);
+            }
+        }
+
+        foreach (Pieces piece in remainPieces)
+        {
+            GamePlayController.Instance.playerContain.hScrollController.currentClickScroll = null;
+            piece.InitState(piece.transform.localPosition, piece.gameObject.transform.GetSiblingIndex());
+            gamePlayControl.playerContain.hScrollController.gridLayoutGroup.enabled = true;
+            gamePlayControl.playerContain.hScrollController.contentSizeFitter.enabled = true;
+        }
+        yield return new WaitForSeconds(0.1f);
+        //GamePlayController.Instance.countPicesShowInter++;
+        //if (!DataLevelSave.GetCompleteLevel(gamePlayControl.level.bundle.realLevel) && GamePlayController.Instance.countPicesShowInter >= RemoteConfigController.GetIntConfig(FirebaseConfig.COUNT_PICES_DONE_SHOW_INTER, 3))
+        //    GameController.Instance.admobAds.ShowInterstitial(false, "in_game", isShowBreakAds: true);
+        GamePlayController.Instance.playerContain.hScrollController.currentClickScroll = null;
+        gamePlayControl.playerContain.hScrollController.gridLayoutGroup.enabled = false;
+        gamePlayControl.playerContain.hScrollController.contentSizeFitter.enabled = false;
+
+    }
+
     public void ColorChange()
     {
         thumnails.color = Color.white;

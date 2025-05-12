@@ -21,6 +21,11 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
     public RectTransform draggedItemRect;
     public bool isDone;
     public Goals goals;
+    public void InitState(Vector2 firstPos, int firstIndex)
+    {
+        this.firstPos = firstPos;
+        this.firstIndex = firstIndex;
+    }
     public void OnPointerDown(PointerEventData eventData)
     {
         startPoint = eventData.position;
@@ -57,7 +62,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
         controller.ReturnScroll(this.firstIndex, () =>
         {
             this.transform.DOLocalMove(firstPos, 0.3f);
-         //   controller.isCanDrag = true;
+            controller.isCanDrag = true;
             GamePlayController.Instance.gameScene.blockRaycast.SetActive(false);
         });
     }
@@ -129,6 +134,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
             }
         }
     }    
+
 
     private IEnumerator ResetContentSize()
     {

@@ -757,7 +757,7 @@ public class UseProfile : MonoBehaviour
         }
     }
 
-    public string ListSave
+    public static string ListSave
     {
         get
         {
