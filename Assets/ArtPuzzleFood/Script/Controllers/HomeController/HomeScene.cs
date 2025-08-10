@@ -12,20 +12,7 @@ public class HomeScene : BaseScene
 
     public Button btnSetting;
  
-
-    public Button btnPlay;
-    public Button btnShop;
-
-   
-    public CoinHeartBar coinHeartBar;
  
- 
-    public Text tvLevel;
-    public Text tvDifficut;
-    public Image imgLevelType;
-    public Sprite easySprite;
-    public Sprite hardSprite;
-    public Sprite veryHardSprite;
     public void ShowGift()
     {
         
@@ -54,17 +41,15 @@ public class HomeScene : BaseScene
 
     public void Init()
     {
-        coinHeartBar.Init();
+   
    
       
     
         btnSetting.onClick.AddListener(delegate { GameController.Instance.musicManager.PlayClickSound(); OnSettingClick(); });
 
-        btnPlay.onClick.AddListener(delegate { GameController.Instance.musicManager.PlayClickSound();   });
+  
 
-        btnShop.onClick.AddListener(delegate { GameController.Instance.musicManager.PlayClickSound(); ShopBox.Setup().Show(); });
-
-        tvLevel.text = "LEVEL " + UseProfile.CurrentLevel.ToString();
+        
        
    
     }

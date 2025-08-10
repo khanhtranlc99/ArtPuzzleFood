@@ -143,6 +143,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\UIScrollToSelectionXY.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IVerifier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsAgreementCredentials.cs" />
+    <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\HandHint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\CamelliaWrapEngine.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\MusicManager\PlaySoundOnClick.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\CRLDistPoint.cs" />
@@ -1179,6 +1180,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Authentication\IAuthenticationProvider.cs" />
     <Compile Include="Assets\EnhancedScroller v2\Demos\14b Key Control Grid\CellView.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Runtime\Scripts\Utilities\SetPropertyUtility.cs" />
+    <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\BoosterHint.cs" />
     <Compile Include="Assets\ArtPuzzleFood\Script\Controllers\GamePlayController\BarPercent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\OcspStatusRequest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerUTF8String.cs" />
@@ -1370,6 +1372,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\EnhancedScroller v2\ChangeLog.txt" />
     <None Include="Assets\Spine\version.txt" />
+    <None Include="Assets\ArtPuzzleFood\Animation\7_Json\lv7.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Shine.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
@@ -1395,6 +1398,7 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Add Hue.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Custom Fade.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Ink Spread.shader" />
+    <None Include="Assets\ArtPuzzleFood\Animation\8_Json\lv8.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Saturation.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Basic\Standard\Default.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Source Glow Dissolve.shader" />
@@ -1458,6 +1462,7 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Generated\Standard\Smoke.shader" />
     <None Include="Assets\Base\3Party\NiceVibrations\readme.txt" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\link.xml" />
+    <None Include="Assets\ArtPuzzleFood\Animation\6_Json\lv6.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Glitch.shader" />
     <None Include="Assets\ArtPuzzleFood\Animation\5_Json\lv5.atlas.txt" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
@@ -1467,6 +1472,7 @@
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Proguard\common.txt" />
+    <None Include="Assets\ArtPuzzleFood\Animation\9_Json\lv9.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Contrast.shader" />
     <None Include="Assets\Base\00_BaseCode\VFX\Eplosion\alphaBlend_glow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

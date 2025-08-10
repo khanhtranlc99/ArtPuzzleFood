@@ -14,13 +14,20 @@ public class Goals : MonoBehaviour
     [HideInInspector] public float colorValue = 0f;
     int fadePropertyID;
     private Coroutine goalsPostCoroutine;
+    public Sprite target;
+    public Pieces pieces;
     public void Init ( )
     {
      
     }    
+    public void SetTarget()
+    {
+       target = thumnails.sprite;
+    }
 
     public void CheckComplete()
     {
+        thumnails.sprite = target; 
         GamePlayController.Instance.gameScene.barPercent.HandleSubtract();
         thumnails.material = GamePlayController.Instance.playerContain._colorChange;
         ColorChange();

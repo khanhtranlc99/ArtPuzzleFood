@@ -29,6 +29,7 @@ public class HomeController : Singleton<HomeController>
             }    
           
         }
+        homeScene.Init();
     }
 
 }

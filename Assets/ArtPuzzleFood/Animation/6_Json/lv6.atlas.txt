@@ -1,0 +1,160 @@
+
+lv6.png
+size: 1920,961
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 2
+  size: 957, 584
+  orig: 959, 586
+  offset: 1, 1
+  index: -1
+02
+  rotate: false
+  xy: 588, 232
+  size: 708, 727
+  orig: 710, 729
+  offset: 1, 1
+  index: -1
+03
+  rotate: true
+  xy: 1742, 271
+  size: 124, 153
+  orig: 126, 155
+  offset: 1, 1
+  index: -1
+04
+  rotate: false
+  xy: 1337, 564
+  size: 406, 395
+  orig: 408, 397
+  offset: 1, 1
+  index: -1
+05
+  rotate: true
+  xy: 1745, 880
+  size: 79, 173
+  orig: 79, 173
+  offset: 0, 0
+  index: -1
+06
+  rotate: true
+  xy: 1337, 18
+  size: 214, 349
+  orig: 216, 351
+  offset: 1, 1
+  index: -1
+07
+  rotate: false
+  xy: 963, 12
+  size: 99, 218
+  orig: 99, 218
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 1064, 15
+  size: 271, 215
+  orig: 273, 217
+  offset: 1, 1
+  index: -1
+09
+  rotate: true
+  xy: 1538, 308
+  size: 254, 202
+  orig: 256, 204
+  offset: 1, 1
+  index: -1
+10
+  rotate: true
+  xy: 1688, 129
+  size: 140, 193
+  orig: 142, 195
+  offset: 1, 1
+  index: -1
+11
+  rotate: false
+  xy: 1298, 234
+  size: 238, 328
+  orig: 240, 330
+  offset: 1, 1
+  index: -1
+12
+  rotate: false
+  xy: 588, 2
+  size: 198, 228
+  orig: 200, 230
+  offset: 1, 1
+  index: -1
+13
+  rotate: true
+  xy: 1745, 570
+  size: 120, 167
+  orig: 122, 169
+  offset: 1, 1
+  index: -1
+14
+  rotate: true
+  xy: 788, 11
+  size: 219, 173
+  orig: 221, 175
+  offset: 1, 1
+  index: -1
+15
+  rotate: true
+  xy: 1745, 692
+  size: 186, 170
+  orig: 188, 172
+  offset: 1, 1
+  index: -1
+16
+  rotate: false
+  xy: 1688, 31
+  size: 79, 96
+  orig: 114, 96
+  offset: 0, 0
+  index: -1
+17
+  rotate: true
+  xy: 1745, 482
+  size: 86, 161
+  orig: 88, 163
+  offset: 1, 1
+  index: -1
+18
+  rotate: true
+  xy: 1742, 397
+  size: 83, 176
+  orig: 85, 178
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: false
+  xy: 1298, 868
+  size: 27, 42
+  orig: 29, 44
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: true
+  xy: 1538, 252
+  size: 54, 75
+  orig: 54, 75
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 1298, 936
+  size: 23, 34
+  orig: 25, 36
+  offset: 1, 1
+  index: -1
+Layer 4
+  rotate: true
+  xy: 1298, 912
+  size: 22, 33
+  orig: 24, 35
+  offset: 1, 1
+  index: -1

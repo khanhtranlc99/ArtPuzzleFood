@@ -281,16 +281,17 @@ public class UseProfile : MonoBehaviour
          
         }
     }
-    public static int DrillBooster
+    public static int Hint_Booster
     {
         get
         {
-            return PlayerPrefs.GetInt(StringHelper.SUPORT_BOOSTER, 0);
+            return PlayerPrefs.GetInt(StringHelper.Hint_Booster, 3);
         }
         set
         {
-            PlayerPrefs.SetInt(StringHelper.SUPORT_BOOSTER, value);
+            PlayerPrefs.SetInt(StringHelper.Hint_Booster, value);
             PlayerPrefs.Save();
+            EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_HINT_BOOSTER);
 
         }
     }

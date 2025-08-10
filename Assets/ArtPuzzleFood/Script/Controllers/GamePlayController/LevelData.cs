@@ -5,6 +5,10 @@ using UnityEngine.UI;
 using Sirenix.OdinInspector;
 using Spine.Unity;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 public class LevelData : MonoBehaviour
 {
     public int id;
@@ -40,11 +44,12 @@ public class LevelData : MonoBehaviour
                 lsDataGoalsPost.Add(goat);
                 var pieceTemp = SimplePool2.Spawn(playerContain.pieces).GetComponent<Pieces>();
               //  pieceTemp.transform.SetParent(playerContain.postScroll,false);
-                pieceTemp.thumnail.sprite = goat.thumnails.sprite;
+                pieceTemp.thumnail.sprite = goat.target;
                 pieceTemp.controller = paramContain.hScrollController;
                 pieceTemp.id = goat.id;
             //    pieceTemp.firstIndex = goat.id;
                 pieceTemp.goals = goat;
+                pieceTemp.goals.pieces = pieceTemp;
                 pieces.Add(pieceTemp);
          
             }
@@ -85,6 +90,7 @@ public class LevelData : MonoBehaviour
         currentGrass = GetGrass;
         currentGrass.gameObject.SetActive(true);
         currentGrass.HandleFadeIn();
+        GamePlayController.Instance.gameScene.barPercent.HandleChangeBar(currentGrass.lsGoals.Count);
     }
     public void HandleFillIndex(Pieces param)
     {
@@ -118,8 +124,11 @@ public class LevelData : MonoBehaviour
             currentGrass = GetGrass;
             if(currentGrass != null)
             {
+                Debug.LogError("GetGrass");
                 currentGrass.gameObject.SetActive(true);
                 currentGrass.HandleFadeIn();
+                GamePlayController.Instance.gameScene.barPercent.HandleChangeBar(currentGrass.lsGoals.Count);
+         
             }
             else
             {
@@ -173,5 +182,21 @@ public class LevelData : MonoBehaviour
             tempLsGoats[i].thumnails.color = new Color32(255,255,255,80);
         }
     }
+    [Button]
+    private void ChangeSouce()
+    {
+        // Duyệt qua tất cả Grass trong lsGrass
+        foreach (var grass in lsGrass)
+        {
+            // Duyệt qua tất cả Goals (Goast) trong lsGoals của mỗi Grass
+            foreach (var goal in grass.lsGoals)
+            {
+                // Thay đổi tên của sprite trong Thumbnail
+                 goal.SetTarget();
+            }
+        }
+    }
+
+   
 }
  

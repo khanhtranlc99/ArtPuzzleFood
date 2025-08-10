@@ -52,7 +52,7 @@ public static class StringHelper
     public const string HEART = "heart";
     public const string SPECIAL_FEATHER = "special_feather";
     public const string REDO_BOOSTER = "redo_booster";
-    public const string SUPORT_BOOSTER = "suport_booster";
+    public const string Hint_Booster = "Hint_Booster";
     public const string COUNT_NUMBER_WATCH_VIDEO_IN_SHOP = "count_number_watch_video_in_shop";
     public const string IS_DONE_TUT = "is_done_tut";
 

@@ -7,12 +7,27 @@ public class Grass : MonoBehaviour
    public List<Goals> lsGoals;
     public CanvasGroup canvasGroup;
     public bool isDone;
+    public Goals GetGoals
+    {
+        get
+        {
+            foreach (var item in lsGoals)
+            {
+                if (item.isComplete == false)
+                {
+                    return item;
+                }
+            }
+            
+            return null;
+        }
+    }
 
     public void HandleFadeIn()
     {
         foreach(var item in lsGoals)
         {
-            item.thumnails.DOColor(new Color32(255,255,255,100),0.5f);
+            item.thumnails.DOFade(1,1f);
         }
     }
     public bool HandleCheckDone

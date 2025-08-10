@@ -1,0 +1,174 @@
+
+lv8.png
+size: 1931,969
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 10
+  size: 957, 584
+  orig: 959, 586
+  offset: 1, 1
+  index: -1
+02
+  rotate: false
+  xy: 588, 193
+  size: 625, 774
+  orig: 628, 776
+  offset: 1, 1
+  index: -1
+04
+  rotate: true
+  xy: 1440, 4
+  size: 90, 165
+  orig: 92, 167
+  offset: 1, 1
+  index: -1
+05
+  rotate: true
+  xy: 1062, 44
+  size: 147, 237
+  orig: 149, 239
+  offset: 1, 1
+  index: -1
+06
+  rotate: true
+  xy: 588, 34
+  size: 157, 249
+  orig: 159, 251
+  offset: 1, 1
+  index: -1
+07
+  rotate: false
+  xy: 1301, 86
+  size: 137, 113
+  orig: 139, 115
+  offset: 1, 1
+  index: -1
+08
+  rotate: false
+  xy: 1723, 642
+  size: 204, 161
+  orig: 206, 163
+  offset: 1, 1
+  index: -1
+09
+  rotate: false
+  xy: 1723, 805
+  size: 204, 162
+  orig: 206, 164
+  offset: 1, 1
+  index: -1
+10
+  rotate: false
+  xy: 1215, 592
+  size: 506, 375
+  orig: 508, 377
+  offset: 1, 1
+  index: -1
+11
+  rotate: true
+  xy: 1215, 201
+  size: 389, 275
+  orig: 392, 277
+  offset: 1, 1
+  index: -1
+12
+  rotate: true
+  xy: 1723, 528
+  size: 112, 181
+  orig: 128, 183
+  offset: 14, 1
+  index: -1
+13
+  rotate: false
+  xy: 839, 19
+  size: 221, 172
+  orig: 223, 175
+  offset: 1, 2
+  index: -1
+14
+  rotate: false
+  xy: 1844, 26
+  size: 80, 68
+  orig: 80, 68
+  offset: 0, 0
+  index: -1
+15
+  rotate: true
+  xy: 1492, 96
+  size: 430, 437
+  orig: 432, 439
+  offset: 1, 1
+  index: -1
+16
+  rotate: false
+  xy: 1767, 9
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+17
+  rotate: true
+  xy: 1062, 2
+  size: 40, 61
+  orig: 42, 63
+  offset: 1, 1
+  index: -1
+25
+  rotate: false
+  xy: 1492, 528
+  size: 104, 62
+  orig: 106, 64
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: true
+  xy: 1598, 536
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 1667, 543
+  size: 47, 52
+  orig: 47, 52
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 1440, 147
+  size: 46, 52
+  orig: 46, 52
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 588, 7
+  size: 41, 25
+  orig: 44, 28
+  offset: 1, 1
+  index: -1
+Layer 5
+  rotate: true
+  xy: 1125, 3
+  size: 39, 51
+  orig: 43, 55
+  offset: 2, 2
+  index: -1
+Layer 6
+  rotate: true
+  xy: 1301, 16
+  size: 68, 132
+  orig: 68, 132
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 1607, 30
+  size: 64, 158
+  orig: 69, 160
+  offset: 1, 1
+  index: -1

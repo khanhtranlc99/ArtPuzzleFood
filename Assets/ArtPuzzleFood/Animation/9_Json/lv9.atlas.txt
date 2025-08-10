@@ -1,0 +1,139 @@
+
+lv9.png
+size: 2032,1592
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 693
+  size: 897, 545
+  orig: 899, 547
+  offset: 1, 1
+  index: -1
+02
+  rotate: false
+  xy: 549, 709
+  size: 792, 881
+  orig: 794, 883
+  offset: 1, 1
+  index: -1
+03
+  rotate: true
+  xy: 654, 381
+  size: 326, 426
+  orig: 469, 700
+  offset: 103, 195
+  index: -1
+04
+  rotate: true
+  xy: 2, 17
+  size: 674, 650
+  orig: 674, 650
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 1343, 849
+  size: 365, 499
+  orig: 670, 830
+  offset: 170, 164
+  index: -1
+07
+  rotate: true
+  xy: 1343, 1216
+  size: 374, 537
+  orig: 376, 539
+  offset: 1, 1
+  index: -1
+08
+  rotate: true
+  xy: 654, 32
+  size: 347, 130
+  orig: 350, 132
+  offset: 2, 1
+  index: -1
+09
+  rotate: false
+  xy: 1882, 1319
+  size: 148, 271
+  orig: 151, 274
+  offset: 2, 2
+  index: -1
+10
+  rotate: true
+  xy: 1055, 33
+  size: 262, 267
+  orig: 264, 269
+  offset: 1, 1
+  index: -1
+11
+  rotate: true
+  xy: 786, 116
+  size: 263, 267
+  orig: 265, 269
+  offset: 1, 1
+  index: -1
+12
+  rotate: false
+  xy: 1844, 635
+  size: 176, 410
+  orig: 178, 412
+  offset: 1, 1
+  index: -1
+13
+  rotate: false
+  xy: 1082, 297
+  size: 176, 410
+  orig: 178, 412
+  offset: 1, 1
+  index: -1
+14
+  rotate: false
+  xy: 1796, 60
+  size: 195, 160
+  orig: 262, 168
+  offset: 33, 1
+  index: -1
+15
+  rotate: false
+  xy: 1796, 222
+  size: 195, 161
+  orig: 262, 169
+  offset: 34, 1
+  index: -1
+16
+  rotate: false
+  xy: 1260, 592
+  size: 78, 115
+  orig: 78, 115
+  offset: 0, 0
+  index: -1
+17
+  rotate: true
+  xy: 786, 24
+  size: 90, 164
+  orig: 108, 182
+  offset: 18, 11
+  index: -1
+28
+  rotate: false
+  xy: 1882, 1047
+  size: 148, 270
+  orig: 151, 273
+  offset: 1, 2
+  index: -1
+ChatGPT Image May 26, 2025, 09_03_12 PM
+  rotate: false
+  xy: 1343, 2
+  size: 451, 845
+  orig: 453, 847
+  offset: 1, 1
+  index: -1
+Layer 1
+  rotate: true
+  xy: 1796, 385
+  size: 248, 221
+  orig: 250, 223
+  offset: 1, 1
+  index: -1

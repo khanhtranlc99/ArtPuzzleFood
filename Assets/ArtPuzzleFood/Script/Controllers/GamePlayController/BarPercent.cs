@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,9 @@ public class BarPercent : MonoBehaviour
     public Image amount;
     LevelData levelData;
 
+
+    public float currentBar;
+    public float totalBar;
     public void Init(LevelData param)
     {
         levelData  = param;
@@ -24,11 +28,38 @@ public class BarPercent : MonoBehaviour
         }
         currentNumb = sumPieces;
         tvNumPieces.text = currentNumb + "/"+ sumPieces.ToString();
+        amount.fillAmount = 0;
+        currentBar = 0;
     }    
     public void HandleSubtract()
     {
         currentNumb -= 1;
         tvNumPieces.text = currentNumb  + "/"+ sumPieces.ToString();
+        HandlePlusBarGrass();
+        Debug.LogError("currentNumb_" + currentNumb);
     }    
+
+    public void HandleChangeBar(int paralTotal)
+    {
+        currentBar = 0;
+        totalBar = paralTotal;
+      
+
+
+    }    
+
+    public void HandlePlusBarGrass()
+    {
+        currentBar += 1;
+        amount.DOFillAmount(currentBar / totalBar, 0.4f).OnComplete(delegate { 
+           if(amount.fillAmount >= 1)
+            {
+                amount.fillAmount = 0;
+            }    
+        });
+    }    
+
+
+
 
 }
