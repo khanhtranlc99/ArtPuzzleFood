@@ -16,11 +16,14 @@ public class GameScene : BaseScene
     public Text tvLevel;
     public Button settinBtn;
     public Button nextBtn;
+    public Button homeBtn;
     public Transform canvas;
     public GameObject blockRaycast;
     public Button btnHome;
     public BarPercent barPercent;
     public CanvasGroup canvasGroupMain;
+
+
     public void Init( LevelData param )
     {
         nextBtn.gameObject.transform.localScale = Vector3.zero;
@@ -28,11 +31,12 @@ public class GameScene : BaseScene
         tvLevel.text = "Level " + UseProfile.CurrentLevel;
         btnHome.onClick.AddListener(HandleButtonOnClick);
         nextBtn.onClick.AddListener(HandleButtonNext);
+      
         barPercent.Init(param);
     }
     public void HandleButtonOnClick()
     {
-
+        GameController.Instance.musicManager.PlayClickSound();
         Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
     }
     public void HandleButtonNext()
@@ -70,6 +74,7 @@ public class GameScene : BaseScene
     {
         nextBtn.gameObject.SetActive(true);
         nextBtn.gameObject.transform.DOScale(Vector3.one,0.5f);
+        GameController.Instance.musicManager.PlayWinSound();
     }
     IEnumerator ChangeScene()
     {

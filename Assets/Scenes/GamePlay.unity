@@ -2162,6 +2162,7 @@ MonoBehaviour:
   tvLevel: {fileID: 650096884}
   settinBtn: {fileID: 267293213}
   nextBtn: {fileID: 899782663}
+  homeBtn: {fileID: 602828480}
   canvas: {fileID: 1137774576}
   blockRaycast: {fileID: 2036248557}
   btnHome: {fileID: 267293213}
@@ -2479,6 +2480,8 @@ MonoBehaviour:
   currentNumb: 0
   tvNumPieces: {fileID: 1364812758}
   amount: {fileID: 920510856}
+  currentBar: 0
+  totalBar: 0
 --- !u!1 &1675251920
 GameObject:
   m_ObjectHideFlags: 0

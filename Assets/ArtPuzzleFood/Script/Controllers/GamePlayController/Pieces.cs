@@ -24,6 +24,8 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
     public RectTransform draggedItemRect;
     public bool isDone;
     public Goals goals;
+    public AudioClip clickSfx;
+    public AudioClip completeSfx;
 
 
   
@@ -97,7 +99,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
     {
         startPoint = eventData.position;
         controller.currentClickScroll = this;
-
+        GameController.Instance.musicManager.PlayOneShot(clickSfx);
     }
     public void ActiveDrag(bool isActive)
     {
@@ -187,14 +189,12 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
                 goals.CheckComplete();
                 isDragging = false;
                 isCanDrag = false;
-                controller.scroll.enabled = true;
-           
+                controller.scroll.enabled = true;    
                 GamePlayController.Instance.playerContain.levelData.HandleFillIndex(this);
-                GamePlayController.Instance.gameScene.blockRaycast.SetActive(false);
-               
+                GamePlayController.Instance.gameScene.blockRaycast.SetActive(false);              
                 StartCoroutine(ResetContentSize());
-
                 EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHECK_HAND_BOOSTER);
+                GameController.Instance.musicManager.PlayOneShot(completeSfx);
                 SimplePool2.Despawn(this.gameObject);
 
 

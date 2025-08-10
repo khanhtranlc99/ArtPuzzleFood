@@ -99,6 +99,10 @@ MonoBehaviour:
   thumnail: {fileID: 2431834980472655287}
   draggedItemRect: {fileID: 2393014248522808292}
   isDone: 0
+  goals: {fileID: 0}
+  clickSfx: {fileID: 8300000, guid: 438cb05ff6b793b469ac233bcef4cd8b, type: 3}
+  completeSfx: {fileID: 8300000, guid: eee6362c4491e3546a825806197e411f, type: 3}
+  duration: 0.5
 --- !u!1 &5941243026761486037
 GameObject:
   m_ObjectHideFlags: 0
