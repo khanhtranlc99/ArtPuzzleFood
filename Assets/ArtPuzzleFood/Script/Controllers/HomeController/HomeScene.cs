@@ -71,7 +71,7 @@ public class HomeScene : BaseScene
     }
     private void OnSettingClick()
     {
-        SettingBox.Setup(false).Show();
+        SettingBox.Setup(true).Show();
         //MMVibrationManager.Haptic(HapticTypes.MediumImpact);
     }
 

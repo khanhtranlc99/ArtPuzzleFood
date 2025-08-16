@@ -16,7 +16,8 @@ public enum TypePackIAP
     ImmortalPacks,
     CoinPacks_1,
     CoinPacks_2,
-    CoinPacks_3
+    CoinPacks_3,
+    RemoveAds
 
 
 }

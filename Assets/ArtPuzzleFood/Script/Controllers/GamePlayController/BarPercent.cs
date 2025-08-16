@@ -15,6 +15,7 @@ public class BarPercent : MonoBehaviour
 
     public float currentBar;
     public float totalBar;
+    public AudioClip sfxComplete;
     public void Init(LevelData param)
     {
         levelData  = param;
@@ -54,7 +55,9 @@ public class BarPercent : MonoBehaviour
         amount.DOFillAmount(currentBar / totalBar, 0.4f).OnComplete(delegate { 
            if(amount.fillAmount >= 1)
             {
+
                 amount.fillAmount = 0;
+                GameController.Instance.musicManager.PlayOneShot(sfxComplete);
             }    
         });
     }    

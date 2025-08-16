@@ -43,7 +43,7 @@ public class SettingBox : BaseBox
 
  
     public Button btnHome;
-    public Button btnRestart;
+   // public Button btnRestart;
 
     public bool isGameplay;
 
@@ -60,7 +60,7 @@ public class SettingBox : BaseBox
         
   
         btnHome.onClick.AddListener(delegate { HandleBtnHome(); });
-        btnRestart.onClick.AddListener(delegate { HandleBtnRestart(); });
+      //  btnRestart.onClick.AddListener(delegate { HandleBtnRestart(); });
        
   
     }
@@ -72,14 +72,14 @@ public class SettingBox : BaseBox
         {
             
             btnHome.gameObject.SetActive(true);
-            btnRestart.gameObject.SetActive(true);
+        //    btnRestart.gameObject.SetActive(true);
        
         }    
         else
         {
          
             btnHome.gameObject.SetActive(false);
-            btnRestart.gameObject.SetActive(false);
+         //   btnRestart.gameObject.SetActive(false);
         }    
     
         SetUpBtn();
@@ -89,7 +89,7 @@ public class SettingBox : BaseBox
     public void OffBtn()
     {
         btnHome.gameObject.SetActive(false);
-        btnRestart.gameObject.SetActive(false);
+     //   btnRestart.gameObject.SetActive(false);
     }    
     private void SetUpBtn()
     {
@@ -204,7 +204,7 @@ public class SettingBox : BaseBox
 
         //}
         GameController.Instance.musicManager.PlayClickSound();
-        BackHomeBox.Setup(TypeBackHOme.BackHome).Show();
+        Close();
 
 
 

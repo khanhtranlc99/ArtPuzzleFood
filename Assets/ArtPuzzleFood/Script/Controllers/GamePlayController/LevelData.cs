@@ -54,7 +54,7 @@ public class LevelData : MonoBehaviour
          
             }
         }
-        if(UseProfile.CurrentLevel != 1)
+        if(UseProfile.LevelEggChest != 1)
         {
             pieces.Shuffle(); //duyet lai index
         }

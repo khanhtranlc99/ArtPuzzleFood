@@ -8,6 +8,7 @@ using DG.Tweening;
 using UnityEngine.Purchasing;
 using Sirenix.OdinInspector;
 using System;
+using MoreMountains.NiceVibrations;
 
 
 public class Pieces : MonoBehaviour, IPointerDownHandler
@@ -100,6 +101,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
         startPoint = eventData.position;
         controller.currentClickScroll = this;
         GameController.Instance.musicManager.PlayOneShot(clickSfx);
+        MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
     }
     public void ActiveDrag(bool isActive)
     {
@@ -184,7 +186,7 @@ public class Pieces : MonoBehaviour, IPointerDownHandler
             float distance = Vector3.Distance(this.transform.position, goals.transform.position);
             if (distance < 0.5f)
             {
-             
+                MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
                 controller.currentClickScroll = null;
                 goals.CheckComplete();
                 isDragging = false;

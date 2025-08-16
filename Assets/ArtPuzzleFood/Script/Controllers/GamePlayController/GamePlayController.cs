@@ -19,7 +19,7 @@ public class GamePlayController : Singleton<GamePlayController>
     public StateGame stateGame;
     public PlayerContain playerContain;
     public GameScene gameScene;
- 
+    public TutorialFunController tutorial_Level_1;
  
  
     
@@ -38,9 +38,15 @@ public class GamePlayController : Singleton<GamePlayController>
    
         playerContain.Init();
         gameScene.Init(playerContain.levelData);
-     UseProfile.FirstLoading = true;
-     
-      
+        UseProfile.FirstLoading = true;
+        tutorial_Level_1.Init();
+
+        tutorial_Level_1.StartTut();
+
+
+
     }
+
+
    
 }

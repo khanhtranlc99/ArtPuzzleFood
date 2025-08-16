@@ -17,11 +17,18 @@ public class HomeController : Singleton<HomeController>
     private void Start()
     {
         var temp = JsonConvert.DeserializeObject<List<int>>(UseProfile.ListSave);
+        foreach(var item in temp)
+        {
+            Debug.Log(item);
+        }
+
         foreach(var item in lsBtnLevel)
         {
+          
             if(temp.Contains(item.idLevel))
             {
                 item.Init(true);
+                Debug.Log("1111" + item.idLevel);
             }    
             else
             {

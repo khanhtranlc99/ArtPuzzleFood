@@ -27,7 +27,7 @@ public class StartLoading : MonoBehaviour
         yield return new WaitForSeconds(1);
         progressBar.fillAmount = 0f;
         string name = "";
-        if (UseProfile.CurrentLevel == 1)
+        if (UseProfile.LevelEggChest == 1)
         {
             name = SceneName.GAME_PLAY;
         }

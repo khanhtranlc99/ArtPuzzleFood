@@ -4,10 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using DG.Tweening;
-using System;
-using MoreMountains.NiceVibrations;
-using UnityEngine.Events;
-using UniRx;
 using Newtonsoft.Json;
 
 public class GameScene : BaseScene
@@ -19,7 +15,7 @@ public class GameScene : BaseScene
     public Button homeBtn;
     public Transform canvas;
     public GameObject blockRaycast;
-    public Button btnHome;
+    public Button btnRemoveAds;
     public BarPercent barPercent;
     public CanvasGroup canvasGroupMain;
 
@@ -28,14 +24,37 @@ public class GameScene : BaseScene
     {
         nextBtn.gameObject.transform.localScale = Vector3.zero;
         nextBtn.gameObject.SetActive(false);
-        tvLevel.text = "Level " + UseProfile.CurrentLevel;
-        btnHome.onClick.AddListener(HandleButtonOnClick);
+     
+   
+        settinBtn.onClick.AddListener(HandleBtnSetting);
+
+
         nextBtn.onClick.AddListener(HandleButtonNext);
       
         barPercent.Init(param);
+        homeBtn.onClick.AddListener(HandleButtonOnClick);
+
+        btnRemoveAds.onClick.AddListener(ButtonRemoveAds);
+
+
+    }
+    public void ButtonRemoveAds()
+    {
+        GameController.Instance.musicManager.PlayClickSound();
+        GameController.Instance.iapController.BuyProduct(TypePackIAP.RemoveAds);
+    }
+
+
+
+    private void HandleBtnSetting()
+    {
+        Debug.LogError("HandleBtnSetting");
+        GameController.Instance.musicManager.PlayClickSound();
+        SettingBox.Setup(true).Show();
     }
     public void HandleButtonOnClick()
     {
+        Debug.LogError("HandleButtonOnClick");
         GameController.Instance.musicManager.PlayClickSound();
         Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
     }
@@ -50,16 +69,16 @@ public class GameScene : BaseScene
             Debug.LogError(temp);
             if(temp == null)
             {
-                var Newdata = new List<int>() { 1} ;
+                var Newdata = new List<int>() { 1,2} ;
                 UseProfile.ListSave = JsonConvert.SerializeObject(Newdata);
             }    
             else
             {
-                temp.Add(UseProfile.CurrentLevel);
+                temp.Add(UseProfile.LevelEggChest+1);
                 UseProfile.ListSave = JsonConvert.SerializeObject(temp);
             }
-            UseProfile.CurrentLevel += 1;
-            Initiate.Fade(SceneName.HOME_SCENE, Color.black, 2f);
+            UseProfile.LevelEggChest += 1;
+            Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
         }
    
        

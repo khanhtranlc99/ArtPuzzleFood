@@ -485,6 +485,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 67af1d1cd6e4332499a730ed658cd591, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &1951243727590232599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,6 +1251,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: cbbe50aa97131274b89d97867c66f9f3, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &3934380299096704659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1348,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 2f3587a30ea96b54cb0ba0c41d0fb05e, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &4158285191562546695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1445,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: befa0f3a3611a1a4080a5d7b46496df8, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &4228286410189676623
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,6 +1542,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: d5fba3a92bff3f044b782eec68a8b0fd, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &4268268909996649284
 GameObject:
   m_ObjectHideFlags: 0
@@ -1709,6 +1714,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 6ba6a5bb6eb85ad4cb74de58b6dcc380, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &5255728839472219206
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +1961,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 1f80b0d9c1f1003409b16af78a2d9dc8, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &5880956409686198778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,6 +2058,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 4f7ae7a733b82a1468be6057dbef890b, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &5963767203106158508
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,6 +2155,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 6627aa47d910beb4fbf4b991d0626a21, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6018072276153687202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +2327,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 30e91d307f0239e42bb25193470feabd, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6224219052704649334
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,6 +2499,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 42033e16769ec7643bae762a8970ffc1, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6426683194029728683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2585,6 +2596,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 5d7c7e99649fdac43b053480c09dfb54, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6637812426859962793
 GameObject:
   m_ObjectHideFlags: 0
@@ -2901,6 +2913,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: d88c6ddf945838f45bc5c27ff0deb877, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &7562044528733144341
 GameObject:
   m_ObjectHideFlags: 0
@@ -2997,6 +3010,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: e6c015e2b4c3eb44cb085a79f8b0a1fe, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &7708652438248355444
 GameObject:
   m_ObjectHideFlags: 0
@@ -3093,6 +3107,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: c5a4ccd8e55ec5a488b3d258e932e228, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &7758699331087540549
 GameObject:
   m_ObjectHideFlags: 0
@@ -3409,6 +3424,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 2e2ddf8f8dd6a72468f2aae5ace3f680, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &8507761072407525893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,6 +3521,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 89e25fbdb536ecd459650acd69f432cd, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &8825409277346555493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3601,6 +3618,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: b98d1ec114a7ab24abe218635f150528, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &8852822077481269964
 GameObject:
   m_ObjectHideFlags: 0
@@ -3772,3 +3790,4 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: c29b8816942571d48be6f5cfd8472ce3, type: 3}
+  pieces: {fileID: 0}

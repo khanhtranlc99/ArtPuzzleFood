@@ -39,64 +39,15 @@ public class GiftDatabase : SerializedScriptableObject
 
         switch (giftType)
         {
-            case GiftType.Coin:
-                UseProfile.Coin += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_COIN);
-                break;
-            case GiftType.Heart:
-                UseProfile.Heart += amount;
-                break;
             case GiftType.RemoveAds:
                 GameController.Instance.useProfile.IsRemoveAds = true;
-           
-                break;
-            case GiftType.TNT_Booster:
-                UseProfile.TNT_Booster += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_ATOM_BOOSTER);
+
 
                 break;
-            case GiftType.Rocket_Booster:
-                UseProfile.Roket_Booster += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_ROCKET_BOOSTER);
+            case GiftType.Hint_Booster:
+                UseProfile.Hint_Booster += amount;
                 break;
-            case GiftType.Freeze_Booster:
-                UseProfile.Freeze_Booster += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_FREEZE_BOOSTER);
-                break;
-
-            case GiftType.Atom_Booster:
-                UseProfile.Atom_Booster += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_ATOM_BOOSTER);
-                break;
-
-            case GiftType.FlameUp_Item:
-                UseProfile.FlameUp_Item += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.FLAMEUP_ITEM);
-                break;
-            case GiftType.FastBoom_Item:
-                UseProfile.FastBoom_Item += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.FASTBOOM_ITEM);
-                break;
-            case GiftType.TimeBoom_Item:
-                UseProfile.TimeBoom_Item += amount;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.TIMEBOOM_ITEM);
-                break;
-            case GiftType.Fire_Start:
-                UseProfile.Fire_Start = true;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.SHOP_CHECK);
-                break;
-            case GiftType.Boom_Start:
-                UseProfile.Boom_Start = true;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.SHOP_CHECK);
-                break;
-            case GiftType.Heart_Unlimit:
-            
-                UseProfile.TimeUnlimitHeart = DateTime.Now.AddHours(1);
-                UseProfile.Heart = 5;
-                UseProfile.isUnlimitHeart = true;
-                UseProfile.WasBoughtUnlimitTime = true;
-                EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.SHOP_CHECK);
-                break;
+         
         }
     }
 

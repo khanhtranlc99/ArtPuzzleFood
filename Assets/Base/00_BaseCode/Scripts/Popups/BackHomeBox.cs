@@ -14,8 +14,7 @@ public class BackHomeBox : BaseBox
 {
     public static BackHomeBox instance;
     [SerializeField]private Button btnClose;
-    [SerializeField] private Button btnHome;
-    [SerializeField] private Button btnStay;
+ 
     public Text tvCoin;
     public Text tvTitler;
     public Text tvBtnReset;
@@ -37,10 +36,7 @@ public class BackHomeBox : BaseBox
     {
         btnClose.onClick.AddListener(delegate { GameController.Instance.musicManager.PlayClickSound(); Close();  });
 
-        btnStay.onClick.AddListener(delegate {
-            GameController.Instance.musicManager.PlayClickSound();
-            HandleClose();
-        });
+     
         coinHeartBar.Init();
        
         //gameObject.GetComponent<Canvas>().sortingOrder = 21;
@@ -68,20 +64,7 @@ public class BackHomeBox : BaseBox
     }
     public void InitState(TypeBackHOme typeParam)
     {
-        btnHome.onClick.RemoveAllListeners();
-        switch (typeParam)
-        {
-            case TypeBackHOme.BackHome:
-                tvTitler.text = "BACK HOME";
-                tvBtnReset.text = "HOME";
-                btnHome.onClick.AddListener(BackHome);
-                break;
-            case TypeBackHOme.ResetLevel:
-                tvTitler.text = "RESET LEVEL";
-                tvBtnReset.text = "RESET";
-                btnHome.onClick.AddListener(ResetScene);
-                break;
-        }
+        
         typeBackHOme = typeParam;
      
         for (int i = 0; i < lsProgesst.Count;i ++)
@@ -92,6 +75,7 @@ public class BackHomeBox : BaseBox
                 lsProgesst[i].Init();
             }
         }
+     
     }
     private void ResetScene()
     {

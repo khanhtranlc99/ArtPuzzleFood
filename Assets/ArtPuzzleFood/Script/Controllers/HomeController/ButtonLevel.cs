@@ -20,8 +20,9 @@ public class ButtonLevel : MonoBehaviour
     public bool wasComplete;
   
     public void Init(bool param)
-    {   wasComplete = param; 
-        if(UseProfile.CurrentLevel >= idLevel)
+    {  
+        wasComplete = param; 
+        if(wasComplete)
         {
             blind.gameObject.SetActive(false);
             bgThumb.sprite = spriteOn;
@@ -49,8 +50,13 @@ public class ButtonLevel : MonoBehaviour
     }    
     public void HandleButtonOnClick()
     {
-        UseProfile.LevelEggChest = idLevel;
-        Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
+        if(wasComplete)
+        {
+            GameController.Instance.musicManager.PlayClickSound();
+            UseProfile.LevelEggChest = idLevel;
+            Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
+        }    
+     
     }
     IEnumerator ChangeScene()
     {

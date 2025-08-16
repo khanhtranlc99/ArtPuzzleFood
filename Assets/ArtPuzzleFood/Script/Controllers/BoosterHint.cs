@@ -118,7 +118,7 @@ public class BoosterHint : MonoBehaviour
 
     }
 
- private void HandleHint()
+ public void HandleHint()
 {
         var temp = GamePlayController.Instance.playerContain.levelData.currentGrass.GetGoals;
         if(temp.pieces.IsPieceVisible())

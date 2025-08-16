@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3197649940820813235
 RectTransform:
   m_ObjectHideFlags: 0
@@ -171,6 +171,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: a446c83feb2f15347834811cafd68aa3, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &687633203104247422
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +268,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 84b381c61ed8e434fb3d7b6fb4038dc3, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &1014731113533203956
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +365,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: c94131ddd7db71c4e8d0ea3d49bd41d3, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &1835343612308034888
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,6 +462,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 2dd705bf571c9d6429e6f853484a0a06, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &2252615829461447445
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,7 +480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1452266402882898276
 RectTransform:
   m_ObjectHideFlags: 0
@@ -856,6 +860,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 9d3861511d891b8489cea4c68a5bc213, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &3221267176716221086
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,7 +878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3407743340109175486
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1322,6 +1327,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: d701a2ce590225f4abbb61008c68fc65, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &3976677541933642787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,7 +1345,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8038487597295502819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1493,6 +1499,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 21c3a267157d0b94fb2ef766cb4e2724, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &4338840598914707358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1589,6 +1596,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 8e47fa6cc637b0b4b9ba477498a979e5, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &4689930609107609507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,6 +1768,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 5158c3b5df36c10458fa858e418369cd, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &5048909729321664691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &332150681050752076
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2078,6 +2087,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: fade7d156f932ef42ac4fb782d9f6cf2, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6038783888233258767
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +2175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1079600893620404236
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2319,6 +2329,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 3e48f72ea63ad0b4ea460a6c8c205fdd, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &6715973021632897970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2575,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: c3e7e64f0cd09d04ab742658d4af42f1, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &7638261735350138535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,6 +2672,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 2c7993412dfee9e459d731d0843407f4, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &7953893504446746079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,6 +2844,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 135280d5d85fb2049a7f525934482178, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &8235300542074861434
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +2941,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 46f90458b3bc47d4188e5af90c603df5, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &8279500219153139013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,7 +2959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2813803547033745027
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3173,6 +3188,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: 3498ef77af914784095d014b76d0b690, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &9107473759905106668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,6 +3285,7 @@ MonoBehaviour:
   fadeValue: 0
   colorValue: 0
   target: {fileID: 21300000, guid: eb81538cd585cf445a143692d0add08e, type: 3}
+  pieces: {fileID: 0}
 --- !u!1 &9218618845193000473
 GameObject:
   m_ObjectHideFlags: 0
