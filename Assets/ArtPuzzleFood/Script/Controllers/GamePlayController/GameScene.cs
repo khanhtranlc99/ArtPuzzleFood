@@ -66,7 +66,7 @@ public class GameScene : BaseScene
         {
             
             var temp = JsonConvert.DeserializeObject<List<int>>(UseProfile.ListSave);
-            Debug.LogError(temp);
+           
             if(temp == null)
             {
                 var Newdata = new List<int>() { 1,2} ;

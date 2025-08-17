@@ -31,13 +31,15 @@ public class BarPercent : MonoBehaviour
         tvNumPieces.text = currentNumb + "/"+ sumPieces.ToString();
         amount.fillAmount = 0;
         currentBar = 0;
+     
+
     }    
     public void HandleSubtract()
     {
         currentNumb -= 1;
         tvNumPieces.text = currentNumb  + "/"+ sumPieces.ToString();
         HandlePlusBarGrass();
-        Debug.LogError("currentNumb_" + currentNumb);
+    
     }    
 
     public void HandleChangeBar(int paralTotal)

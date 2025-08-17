@@ -35,13 +35,18 @@ public class GamePlayController : Singleton<GamePlayController>
     public void Init()
     {
 
-   
-        playerContain.Init();
-        gameScene.Init(playerContain.levelData);
-        UseProfile.FirstLoading = true;
-        //tutorial_Level_1.Init();
 
-     //   tutorial_Level_1.StartTut();
+        playerContain.Init(delegate
+        {
+            gameScene.Init(playerContain.levelData);
+            tutorial_Level_1.Init();
+            tutorial_Level_1.StartTut();
+        });
+      
+        UseProfile.FirstLoading = true;
+       
+
+  
 
 
 
