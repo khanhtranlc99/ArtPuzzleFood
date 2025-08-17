@@ -71,6 +71,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\ScrollPositionControllerEditor.cs" />
     <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
+    <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\ConfigBuild.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Demo\Scripts\Editor\MaterialInstancerEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicRenameEditor.cs" />
