@@ -1376,7 +1376,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\EnhancedScroller v2\ChangeLog.txt" />
     <None Include="Assets\Spine\version.txt" />
-    <None Include="Assets\ArtPuzzleFood\Animation\7_Json\lv7.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Shine.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Add.shader" />
@@ -1390,10 +1389,7 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Directional Distortion Fade.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UIScreen.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UI Particle Multiply.shader" />
-    <None Include="Assets\ArtPuzzleFood\Animation\4_Json\lv4.atlas.txt" />
-    <None Include="Assets\ArtPuzzleFood\Animation\1_Json\lv1.atlas.txt" />
     <None Include="Assets\Base\3Party\NiceVibrations\OlderVersions\v2.0.1\NiceVibrations-v-2-0-1-readme.txt" />
-    <None Include="Assets\ArtPuzzleFood\Animation\3_Json\lv3.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Add Color.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Brightness.shader" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UIMultiply.shader" />
@@ -1402,7 +1398,6 @@
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Add Hue.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Custom Fade.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Ink Spread.shader" />
-    <None Include="Assets\ArtPuzzleFood\Animation\8_Json\lv8.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Saturation.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Basic\Standard\Default.shader" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Source Glow Dissolve.shader" />
@@ -1460,15 +1455,12 @@
     <None Include="Assets\MaxSdk\Mediation\MediationAdapters.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Fading\Standard\Directional Glow Fade.shader" />
     <None Include="Assets\Base\3Party\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
-    <None Include="Assets\ArtPuzzleFood\Animation\2_Json\lv2.atlas.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.review\Proguard\review.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Generated\Standard\Smoke.shader" />
     <None Include="Assets\Base\3Party\NiceVibrations\readme.txt" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\link.xml" />
-    <None Include="Assets\ArtPuzzleFood\Animation\6_Json\lv6.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Effect\Standard\Glitch.shader" />
-    <None Include="Assets\ArtPuzzleFood\Animation\5_Json\lv5.atlas.txt" />
     <None Include="Assets\com.unity.uiextensions\Runtime\Resources\Shaders\UISoftAdditive.shader" />
     <None Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\Demos\SafeAreaDemo.txt" />
     <None Include="Assets\Base\3Party\NiceVibrations\license.txt" />
@@ -1476,7 +1468,6 @@
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
     <None Include="Assets\Base\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
     <None Include="Assets\GooglePlayPlugins\com.google.play.core\Proguard\common.txt" />
-    <None Include="Assets\ArtPuzzleFood\Animation\9_Json\lv9.atlas.txt" />
     <None Include="Assets\Sprite Shaders Ultimate\Shaders\Color\Standard\Contrast.shader" />
     <None Include="Assets\Base\00_BaseCode\VFX\Eplosion\alphaBlend_glow.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

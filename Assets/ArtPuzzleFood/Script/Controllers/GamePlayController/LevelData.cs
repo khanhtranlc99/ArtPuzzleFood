@@ -64,13 +64,33 @@ public class LevelData : MonoBehaviour
             pieces[i].transform.SetParent(playerContain.postScroll, false);
             pieces[i].firstIndex = i;
         }
-        //foreach (var item in pieces)
-        //{
-        //    item.transform.SetParent(playerContain.postScroll, false);
-        //}
+    
 
 
         StartCoroutine(HandleOff());
+        
+        // Fix SkeletonGraphic shader reference khi load từ asset bundle
+        if (anim != null)
+        {
+            // Tìm và gán lại shader cho SkeletonGraphic
+            var skeletonGraphic = anim.GetComponent<SkeletonGraphic>();
+            if (skeletonGraphic != null)
+            {
+                // Tìm shader Spine/SkeletonGraphic
+                var spineShader = Shader.Find("Spine/SkeletonGraphic");
+                if (spineShader != null)
+                {
+                    // Tạo material mới với shader đúng
+                    var material = new Material(spineShader);
+                    skeletonGraphic.material = material;
+                    Debug.Log("Đã fix shader cho SkeletonGraphic");
+                }
+                else
+                {
+                    Debug.LogError("Không tìm thấy shader Spine/SkeletonGraphic");
+                }
+            }
+        }
     }
     private IEnumerator HandleOff()
     {
