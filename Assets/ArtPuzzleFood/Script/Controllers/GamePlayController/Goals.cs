@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Purchasing;
 using UnityEngine.UI;
@@ -18,8 +19,10 @@ public class Goals : MonoBehaviour
     public Pieces pieces;
     public void Init ( )
     {
-     
-    }    
+
+    }
+    [Button]    
+    
     public void SetTarget()
     {
        target = thumnails.sprite;

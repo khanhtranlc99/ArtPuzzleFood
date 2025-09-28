@@ -32,6 +32,7 @@ public class LevelData : MonoBehaviour
         }
     }
     public SkeletonGraphic anim;
+    public bool isPlus;
 
    public void Init(PlayerContain paramContain)
     {
@@ -82,14 +83,20 @@ public class LevelData : MonoBehaviour
             item.firstPos = item.transform.localPosition;
             item.startSize = item.thumnail.gameObject.GetComponent<RectTransform>().sizeDelta;            
         }
-        foreach (var item in lsDataGoalsPost)
+        if(!isPlus)
         {
-            item.thumnails.color = new Color32(0, 0, 0, 0);
-            
+            foreach (var item in lsDataGoalsPost)
+            {
+                item.thumnails.color = new Color32(0, 0, 0, 0);
+
+            }
+            currentGrass.HandleFadeIn();
         }
+       
+     
         currentGrass = GetGrass;
         currentGrass.gameObject.SetActive(true);
-        currentGrass.HandleFadeIn();
+   
         GamePlayController.Instance.gameScene.barPercent.HandleChangeBar(currentGrass.lsGoals.Count);
     }
     public void HandleFillIndex(Pieces param)
@@ -126,7 +133,11 @@ public class LevelData : MonoBehaviour
             {
                 Debug.LogError("GetGrass");
                 currentGrass.gameObject.SetActive(true);
-                currentGrass.HandleFadeIn();
+                if (!isPlus)
+                {
+                    currentGrass.HandleFadeIn();
+                }    
+               
                 GamePlayController.Instance.gameScene.barPercent.HandleChangeBar(currentGrass.lsGoals.Count);
          
             }
@@ -143,11 +154,15 @@ public class LevelData : MonoBehaviour
     private IEnumerator HandleWin()
     {
         yield return StartCoroutine(GamePlayController.Instance.gameScene.WaitFadeCanvas());
-        foreach(var item in lsGrass)
+        if(!isPlus)
         {
-            item.gameObject.SetActive(false);
-        }
-        anim.gameObject.SetActive(true);
+            foreach (var item in lsGrass)
+            {
+                item.gameObject.SetActive(false);
+            }
+            anim.gameObject.SetActive(true);
+        }    
+     
         yield return new WaitForSeconds(1);
         GamePlayController.Instance.gameScene.HandleShowButton();
     }
