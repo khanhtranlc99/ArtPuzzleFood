@@ -196,6 +196,7 @@ public class LevelData : MonoBehaviour
             tempLsGoats[i].gameObject.name = "Goat_" + i;
             tempLsGoats[i].thumnails.color = new Color32(255,255,255,80);
         }
+        ChangeSouce();
     }
     [Button]
     private void ChangeSouce()
