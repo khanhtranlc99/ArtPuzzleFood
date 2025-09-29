@@ -1,5 +1,6 @@
 ﻿using Crystal;
 using DG.Tweening;
+using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -46,7 +47,30 @@ public class GamePlayController : Singleton<GamePlayController>
 
 
     }
+    public void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            var temp = JsonConvert.DeserializeObject<List<int>>(UseProfile.ListSave);
+            Debug.LogError(temp);
+            if (temp == null)
+            {
+                var Newdata = new List<int>() { 1, 2 };
+                UseProfile.ListSave = JsonConvert.SerializeObject(Newdata);
+            }
+            else
+            {
+                temp.Add(UseProfile.LevelEggChest + 1);
+                UseProfile.ListSave = JsonConvert.SerializeObject(temp);
+            }
+            UseProfile.LevelEggChest += 1;
+            Initiate.Fade(SceneName.GAME_PLAY, Color.black, 2f);
+
+        }    
 
 
-   
+    }
+
+
+
 }

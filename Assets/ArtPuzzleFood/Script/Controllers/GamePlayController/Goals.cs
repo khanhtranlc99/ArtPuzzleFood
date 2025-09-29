@@ -30,12 +30,18 @@ public class Goals : MonoBehaviour
 
     public void CheckComplete()
     {
+
         thumnails.sprite = target; 
         GamePlayController.Instance.gameScene.barPercent.HandleSubtract();
         thumnails.material = GamePlayController.Instance.playerContain._colorChange;
+        thumnails.color = Color.white;
         ColorChange();
         StartCoroutine(CheckViewIndex());
+
+
     }
+
+
     private IEnumerator CheckViewIndex()
     {
         GamePlayController.Instance.playerContain.hScrollController.currentClickScroll = null;
@@ -70,9 +76,10 @@ public class Goals : MonoBehaviour
 
     public void ColorChange()
     {
-        thumnails.color = Color.white;
+     
         var gamePlayControl = GamePlayController.Instance;
         Sequence s = DOTween.Sequence();
+       
         s.Append(thumnails.GetComponent<RectTransform>().DOScale(new Vector3(1.07f, 1.07f, 1), .175f).SetEase(Ease.OutQuad).OnComplete(() =>
         {
             thumnails.GetComponent<RectTransform>().DOScale(new Vector3(1f, 1f, 1), .175f).SetEase(Ease.InQuad);

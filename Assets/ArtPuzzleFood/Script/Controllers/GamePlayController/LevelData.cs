@@ -83,7 +83,12 @@ public class LevelData : MonoBehaviour
             item.firstPos = item.transform.localPosition;
             item.startSize = item.thumnail.gameObject.GetComponent<RectTransform>().sizeDelta;            
         }
-        if(!isPlus)
+      
+       
+     
+        currentGrass = GetGrass;
+        currentGrass.gameObject.SetActive(true);
+        if (!isPlus)
         {
             foreach (var item in lsDataGoalsPost)
             {
@@ -92,11 +97,6 @@ public class LevelData : MonoBehaviour
             }
             currentGrass.HandleFadeIn();
         }
-       
-     
-        currentGrass = GetGrass;
-        currentGrass.gameObject.SetActive(true);
-   
         GamePlayController.Instance.gameScene.barPercent.HandleChangeBar(currentGrass.lsGoals.Count);
     }
     public void HandleFillIndex(Pieces param)
