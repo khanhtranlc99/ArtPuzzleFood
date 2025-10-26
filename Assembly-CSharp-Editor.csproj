@@ -71,6 +71,7 @@
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\ScrollPositionControllerEditor.cs" />
     <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
+    <Compile Include="Assets\Editor\CreateAssetBundles.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\ConfigBuild.cs" />
     <Compile Include="Assets\Sprite Shaders Ultimate\Demo\Scripts\Editor\MaterialInstancerEditor.cs" />
     <Compile Include="Assets\com.unity.uiextensions\Editor\TextPicRenameEditor.cs" />
@@ -1407,6 +1408,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EDEA0AA5-9A49-4D58-769E-8C5BE15E04CB}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{2F0E2208-6013-489D-2C07-84588160F876}</Project>
       <Name>Assembly-CSharp</Name>

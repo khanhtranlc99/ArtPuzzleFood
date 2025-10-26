@@ -2693,6 +2693,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EDEA0AA5-9A49-4D58-769E-8C5BE15E04CB}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="ACTk.Examples.Runtime.csproj">
       <Project>{4FB35624-D60F-D2BC-F270-FBA9D9E6720A}</Project>
       <Name>ACTk.Examples.Runtime</Name>

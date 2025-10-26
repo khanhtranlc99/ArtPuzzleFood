@@ -13,6 +13,7 @@ Library: D:\ProjectUniy\ArtPuzzleFood\Temp\BurstOutput\tempburstlibs\armeabi-v7a
 --assembly-defines=ACTk.Examples.Runtime;
 --assembly-defines=ACTk.Runtime;
 --assembly-defines=AppsFlyer;
+--assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=Coffee.UIParticle;
 --assembly-defines=DOTween;
@@ -90,6 +91,7 @@ Library: D:\ProjectUniy\ArtPuzzleFood\Temp\BurstOutput\tempburstlibs\armeabi-v7a
 --assembly-defines=ACTk.Examples.Runtime;
 --assembly-defines=ACTk.Runtime;
 --assembly-defines=AppsFlyer;
+--assembly-defines=Assembly-CSharp-firstpass;
 --assembly-defines=Assembly-CSharp;
 --assembly-defines=Coffee.UIParticle;
 --assembly-defines=DOTween;
