@@ -33,6 +33,79 @@ public class LevelData : MonoBehaviour
     }
     public SkeletonGraphic anim;
     public bool isPlus;
+    public List<Sprite> lsSprite;
+
+    [Button]
+    public void AddOutLine()
+    {
+        // Duyệt qua tất cả Grass trong lsGrass
+        foreach (var grass in lsGrass)
+        {
+            // Duyệt qua tất cả Goals trong lsGoals của mỗi Grass
+            foreach (var goal in grass.lsGoals)
+            {
+                bool hasOutline = false; // Biến để kiểm tra Goals có outline hay không
+                
+                // Kiểm tra nếu goal có target sprite
+                if (goal.target != null)
+                {
+                    string targetName = goal.target.name;
+                    
+                    // Tìm sprite trùng tên trong lsSprite
+                    foreach (var sprite in lsSprite)
+                    {
+                        if (sprite != null && sprite.name == targetName)
+                        {
+                            // Tạo GameObject mới cho outline
+                            GameObject outlineObj = new GameObject("Outline_" + targetName);
+                            outlineObj.transform.SetParent(goal.transform, false);
+                            
+                            // Thêm component Image
+                            Image outlineImage = outlineObj.AddComponent<Image>();
+                            
+                            // Hoán đổi sprite: Goals lấy sprite từ lsSprite, Image outline lấy sprite từ Goals
+                            Sprite originalGoalSprite = goal.thumnails.sprite;
+                            goal.thumnails.sprite = sprite; // Goals nhận sprite từ lsSprite
+                            outlineImage.sprite = originalGoalSprite; // Image outline nhận sprite gốc của Goals
+                            
+                            // Đặt outline làm child đầu tiên (để hiển thị phía sau)
+                            outlineObj.transform.SetAsFirstSibling();
+                            
+                            // Copy RectTransform properties từ thumnails
+                            RectTransform goalRect = goal.thumnails.GetComponent<RectTransform>();
+                            RectTransform outlineRect = outlineImage.GetComponent<RectTransform>();
+                            
+                            outlineRect.anchorMin = goalRect.anchorMin;
+                            outlineRect.anchorMax = goalRect.anchorMax;
+                            outlineRect.anchoredPosition = Vector2.zero; // Đặt PosX và PosY thành 0
+                            outlineRect.sizeDelta = goalRect.sizeDelta;
+                            outlineRect.localScale = goalRect.localScale;
+                            
+                            // Đặt màu outline (có thể là màu đen hoặc màu khác)
+                            outlineImage.color = new Color32(255, 255, 255, 103); // Màu đen với độ trong suốt 50%
+                            
+                            // Set outline thành inactive
+                            outlineObj.SetActive(false);
+                            
+                            hasOutline = true; // Đánh dấu Goals này có outline
+                            
+                            Debug.Log($"Đã tạo outline cho goal: {targetName}");
+                            break; // Thoát khỏi vòng lặp sprite khi đã tìm thấy
+                        }
+                    }
+                }
+                
+                // Nếu Goals không có outline thì set opacity = 0
+                if (!hasOutline)
+                {
+                    Color currentColor = goal.thumnails.color;
+                    goal.thumnails.color = new Color(currentColor.r, currentColor.g, currentColor.b, 0f); // Set alpha = 0
+                }
+            }
+        }
+        
+        Debug.Log("Hoàn thành việc tạo outline cho tất cả Goals");
+    }
 
    public void Init(PlayerContain paramContain)
     {
@@ -154,14 +227,12 @@ public class LevelData : MonoBehaviour
     private IEnumerator HandleWin()
     {
         yield return StartCoroutine(GamePlayController.Instance.gameScene.WaitFadeCanvas());
-        if(!isPlus)
-        {
-            foreach (var item in lsGrass)
+          foreach (var item in lsGrass)
             {
                 item.gameObject.SetActive(false);
             }
             anim.gameObject.SetActive(true);
-        }    
+            
      
         yield return new WaitForSeconds(1);
         GamePlayController.Instance.gameScene.HandleShowButton();

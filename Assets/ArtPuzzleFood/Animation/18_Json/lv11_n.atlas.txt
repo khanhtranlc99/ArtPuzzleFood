@@ -1,0 +1,41 @@
+
+lv11_n.png
+size: 1328,996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 992, 1028
+  orig: 998, 1028
+  offset: 3, 0
+  index: -1
+decor1
+  rotate: false
+  xy: 1189, 607
+  size: 96, 85
+  orig: 102, 86
+  offset: 3, 1
+  index: -1
+decor2
+  rotate: false
+  xy: 1032, 694
+  size: 294, 300
+  orig: 294, 300
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 1032, 297
+  size: 149, 189
+  orig: 177, 189
+  offset: 28, 0
+  index: -1
+n2
+  rotate: false
+  xy: 1032, 488
+  size: 155, 204
+  orig: 155, 204
+  offset: 0, 0
+  index: -1

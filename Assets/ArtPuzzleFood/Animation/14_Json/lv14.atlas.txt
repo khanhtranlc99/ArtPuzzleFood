@@ -1,0 +1,48 @@
+
+lv14.png
+size: 1335,1083
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 1079, 1108
+  orig: 1080, 1110
+  offset: 1, 1
+  index: -1
+cat
+  rotate: false
+  xy: 1112, 485
+  size: 144, 188
+  orig: 146, 188
+  offset: 1, 0
+  index: -1
+la1
+  rotate: false
+  xy: 1112, 675
+  size: 191, 167
+  orig: 203, 170
+  offset: 2, 0
+  index: -1
+la2
+  rotate: false
+  xy: 1112, 844
+  size: 221, 237
+  orig: 224, 238
+  offset: 1, 1
+  index: -1
+tho1
+  rotate: true
+  xy: 1112, 324
+  size: 159, 113
+  orig: 163, 114
+  offset: 2, 1
+  index: -1
+tho2
+  rotate: false
+  xy: 1112, 153
+  size: 102, 169
+  orig: 102, 169
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+lv10_n.png
+size: 1343,975
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 971, 1127
+  orig: 981, 1135
+  offset: 0, 8
+  index: -1
+deco2
+  rotate: true
+  xy: 1131, 307
+  size: 178, 147
+  orig: 182, 151
+  offset: 2, 0
+  index: -1
+decor
+  rotate: false
+  xy: 1131, 148
+  size: 86, 157
+  orig: 86, 157
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 1131, 724
+  size: 210, 249
+  orig: 214, 250
+  offset: 2, 1
+  index: -1
+n2
+  rotate: false
+  xy: 1131, 487
+  size: 153, 235
+  orig: 153, 235
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+lv15.png
+size: 1217,992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 988, 1058
+  orig: 988, 1058
+  offset: 0, 0
+  index: -1
+bong
+  rotate: false
+  xy: 1062, 209
+  size: 69, 62
+  orig: 71, 63
+  offset: 1, 1
+  index: -1
+decor
+  rotate: false
+  xy: 1062, 770
+  size: 149, 220
+  orig: 149, 220
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 1062, 449
+  size: 127, 156
+  orig: 129, 156
+  offset: 1, 0
+  index: -1
+n2
+  rotate: false
+  xy: 1062, 607
+  size: 153, 161
+  orig: 157, 161
+  offset: 2, 0
+  index: -1
+n3
+  rotate: false
+  xy: 1062, 273
+  size: 107, 174
+  orig: 111, 174
+  offset: 2, 0
+  index: -1

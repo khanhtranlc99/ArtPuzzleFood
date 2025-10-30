@@ -1,0 +1,82 @@
+{
+"skeleton": {
+	"hash": "8QoWrGPI7xCBinrJOEB4exhKm3Y",
+	"spine": "3.8.99",
+	"x": -524,
+	"y": -577,
+	"width": 1049,
+	"height": 1154,
+	"images": "E:/games/art/Animation/lv12",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone4", "parent": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "bone", "attachment": "BG" },
+	{ "name": "n1", "bone": "bone2", "attachment": "n1" },
+	{ "name": "n2", "bone": "bone3", "attachment": "n2" },
+	{ "name": "n3", "bone": "bone4", "attachment": "n3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BG": {
+				"BG": { "x": 0.5, "width": 1049, "height": 1154 }
+			},
+			"n1": {
+				"n1": { "x": 0.5, "width": 147, "height": 174 }
+			},
+			"n2": {
+				"n2": { "y": 0.5, "width": 124, "height": 173 }
+			},
+			"n3": {
+				"n3": { "x": 0.5, "y": 0.5, "width": 125, "height": 159 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0.1667, "angle": 166.63 },
+					{ "time": 0.3333, "angle": 1 },
+					{ "time": 2.1667 }
+				],
+				"translate": [
+					{ "x": 336.5, "y": -428.27 },
+					{ "time": 0.5, "x": 336.5, "y": -408.81 },
+					{ "time": 1, "x": 336.5, "y": -392.12 },
+					{ "time": 1.5, "x": 336.5, "y": -408.81 },
+					{ "time": 2.1667, "x": 336.5, "y": -428.27 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "x": -261.41, "y": -408.81 },
+					{ "time": 0.5, "x": -292.01, "y": -383.78 },
+					{ "time": 1.1667, "x": -325.38, "y": -383.78 },
+					{ "time": 1.6667, "x": -292.01, "y": -383.78 },
+					{ "time": 2.1667, "x": -261.41, "y": -408.81 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "x": 175.2, "y": 447.74 },
+					{ "time": 0.5, "x": 175.2, "y": 467.21 },
+					{ "time": 1, "x": 175.2, "y": 456.08 },
+					{ "time": 1.5, "x": 175.2, "y": 467.21 },
+					{ "time": 2.1667, "x": 175.2, "y": 447.74 }
+				]
+			}
+		}
+	}
+}
+}

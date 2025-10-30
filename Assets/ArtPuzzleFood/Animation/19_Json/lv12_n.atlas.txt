@@ -1,0 +1,34 @@
+
+lv12_n.png
+size: 1142,938
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 934, 979
+  orig: 937, 980
+  offset: 1, 1
+  index: -1
+Thank you
+  rotate: false
+  xy: 983, 510
+  size: 77, 62
+  orig: 77, 62
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 983, 574
+  size: 151, 177
+  orig: 153, 178
+  offset: 1, 1
+  index: -1
+n2
+  rotate: false
+  xy: 983, 753
+  size: 157, 183
+  orig: 157, 183
+  offset: 0, 0
+  index: -1

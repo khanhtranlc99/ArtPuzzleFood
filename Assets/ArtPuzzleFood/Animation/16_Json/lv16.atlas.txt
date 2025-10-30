@@ -1,0 +1,55 @@
+
+lv16.png
+size: 1361,1035
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 1031, 1215
+  orig: 1035, 1215
+  offset: 2, 0
+  index: -1
+chanh1
+  rotate: false
+  xy: 1219, 197
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+chanh2
+  rotate: false
+  xy: 1219, 197
+  size: 67, 70
+  orig: 67, 70
+  offset: 0, 0
+  index: -1
+n1
+  rotate: false
+  xy: 1219, 269
+  size: 119, 154
+  orig: 123, 156
+  offset: 2, 1
+  index: -1
+n2
+  rotate: false
+  xy: 1219, 606
+  size: 127, 215
+  orig: 127, 215
+  offset: 0, 0
+  index: -1
+n3
+  rotate: false
+  xy: 1219, 823
+  size: 140, 210
+  orig: 140, 210
+  offset: 0, 0
+  index: -1
+n4
+  rotate: false
+  xy: 1219, 425
+  size: 114, 179
+  orig: 114, 179
+  offset: 0, 0
+  index: -1

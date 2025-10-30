@@ -1,0 +1,95 @@
+{
+"skeleton": {
+	"hash": "pdmudtKlETIJ3inLAeOzKzHcyAQ",
+	"spine": "3.8.99",
+	"x": -490,
+	"y": -567,
+	"width": 981,
+	"height": 1135,
+	"images": "E:/games/art/Animation/lv10_n",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "root" },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone4", "parent": "root" },
+	{ "name": "bone5", "parent": "root" }
+],
+"slots": [
+	{ "name": "BG", "bone": "bone", "attachment": "BG" },
+	{ "name": "deco2", "bone": "bone2", "attachment": "deco2" },
+	{ "name": "decor", "bone": "bone3", "attachment": "decor" },
+	{ "name": "n1", "bone": "bone4", "attachment": "n1" },
+	{ "name": "n2", "bone": "bone5", "attachment": "n2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"BG": {
+				"BG": { "x": 0.5, "y": 0.5, "width": 981, "height": 1135 }
+			},
+			"deco2": {
+				"deco2": { "y": 0.5, "width": 182, "height": 151 }
+			},
+			"decor": {
+				"decor": { "y": 0.5, "width": 86, "height": 157 }
+			},
+			"n1": {
+				"n1": { "width": 214, "height": 250 }
+			},
+			"n2": {
+				"n2": { "x": 0.5, "y": 0.5, "width": 153, "height": 235 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"bone5": {
+				"translate": [
+					{ "x": -270.77, "y": -429.4 },
+					{ "time": 0.6667, "x": -237.95, "y": -451.28 },
+					{ "time": 1.1667, "x": -213.33, "y": -451.28 },
+					{ "time": 1.8333, "x": -237.95, "y": -451.28 },
+					{ "time": 2.5, "x": -270.77, "y": -429.4 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "x": 278.97, "y": -287.17 }
+				],
+				"shear": [
+					{ "time": 0.3333, "x": -1 },
+					{ "time": 0.8333, "x": 2 },
+					{ "time": 1.3333, "x": -1 },
+					{ "time": 1.8333, "x": 0.3 },
+					{ "time": 2.5 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "x": 10.94, "y": 251.62 }
+				],
+				"shear": [
+					{ "time": 0.6667, "x": 1.67 },
+					{ "time": 1.1667, "x": -2.3 },
+					{ "time": 1.6667, "x": 1.67 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "x": 90.26, "y": -393.84 },
+					{ "time": 0.5, "x": 90.26, "y": -374.7 },
+					{ "time": 1, "x": 90.26, "y": -341.87 },
+					{ "time": 1.5, "x": 90.26, "y": -374.7 },
+					{ "time": 2, "x": 90.26, "y": -393.84 }
+				]
+			}
+		}
+	}
+}
+}

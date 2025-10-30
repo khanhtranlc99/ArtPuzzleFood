@@ -1,0 +1,48 @@
+
+lv11.png
+size: 1236,949
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: true
+  xy: 2, 2
+  size: 945, 1094
+  orig: 945, 1098
+  offset: 0, 4
+  index: -1
+n1
+  rotate: false
+  xy: 1098, 172
+  size: 83, 173
+  orig: 83, 173
+  offset: 0, 0
+  index: -1
+n2
+  rotate: false
+  xy: 1098, 347
+  size: 101, 182
+  orig: 105, 182
+  offset: 2, 0
+  index: -1
+n3
+  rotate: false
+  xy: 1098, 531
+  size: 97, 193
+  orig: 97, 193
+  offset: 0, 0
+  index: -1
+n4
+  rotate: false
+  xy: 1098, 726
+  size: 136, 221
+  orig: 140, 221
+  offset: 2, 0
+  index: -1
+n5
+  rotate: false
+  xy: 1098, 23
+  size: 124, 147
+  orig: 128, 147
+  offset: 2, 0
+  index: -1
